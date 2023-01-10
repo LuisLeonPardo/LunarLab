@@ -48,7 +48,7 @@
 	background-color: var(--gray-color);
 	color: var(--white-color);
 }
-.input-wrapper {
+.inputWrapper {
 	position: relative;
 	width: 288px;
 	height: 48px;
@@ -68,7 +68,7 @@
     outline: 1px solid var(--black-color);
 }
 
-.input-icon {
+.inputIcon {
 	position: absolute;
 	width: 20px;
 	height: 20px;

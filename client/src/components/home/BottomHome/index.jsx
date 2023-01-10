@@ -1,11 +1,11 @@
 import React from 'react'
 import Footer from '../Footer/Footer'
-import NavBarBottomHome from '../NavBarBottomHome/NavBarBottomHome'
+import NavBarBottomHome from '../NavBarBottomHome'
 import SectionCards from '../SectionCards/SectionCards'
-import './BottomHome.css'
+import styles from './index.module.css'
 function BottomHome() {
   return (
-    <div className='bottomHome'>
+    <div className={styles.bottomHome}>
     {/* <div>BottomHome</div> */}
     <NavBarBottomHome />
     {/* <SectionCards /> */}
