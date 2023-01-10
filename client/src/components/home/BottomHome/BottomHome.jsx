@@ -6,10 +6,10 @@ import './BottomHome.css'
 function BottomHome() {
   return (
     <div className='bottomHome'>
-    <div>BottomHome</div>
+    {/* <div>BottomHome</div> */}
     <NavBarBottomHome />
-    <SectionCards />
-    <Footer />
+    {/* <SectionCards /> */}
+    {/* <Footer /> */}
     </div>
   )
 }

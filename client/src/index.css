@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+:root{
+  --white-color: #FFFFFF;
+  --gray-color: #3A3B3C;
+  --black-color: #242526;
+  --violet-color: #7072F0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
