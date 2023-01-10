@@ -1,11 +1,14 @@
 import React from 'react'
+
 import BottomHome from './BottomHome/BottomHome'
+import Navbar from './Navbar/Navbar'
 
 function Home() {
   return (
     <>
     <div>Home</div>
     <BottomHome />
+    <Navbar></Navbar>
     </>
   )
 }
