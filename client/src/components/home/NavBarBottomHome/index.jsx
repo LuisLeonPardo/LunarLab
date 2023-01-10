@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './NavBarBottomHome.css';
+import styles from './index.module.css';
 
 function NavBarBottomHome() {
 	const [upcomming, setUpcomming] = useState(true);
@@ -14,27 +14,27 @@ function NavBarBottomHome() {
 		setUpcomming(false);
 	};
 	return (
-		<div className="navBarHomeBottom">
+		<div className={styles.navBarHomeBottom}>
 			<div>
 				<button
 					onClick={handleUpcomming}
-					className={`${upcomming ? 'active' : 'notActive'} upcomming`}
+					className={`${upcomming ? styles.active : styles.notActive} ${styles.upcomming}`}
 				>
 					Upcomming
 				</button>
 				<button
 					onClick={handleEnded}
-					className={`${ended ? 'active' : 'notActive'} ended`}
+					className={`${ended ? styles.active : styles.notActive} ${styles.ended}`}
 				>
 					Ended
 				</button>
 			</div>
-			<div class="input-wrapper">
-				<input type="search" className="input" placeholder="Search pools" />
+			<div className={styles.inputWrapper}>
+				<input type="search" className={styles.input} placeholder="Search pools" />
 
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					className="input-icon"
+					className={styles.inputIcon}
 					viewBox="0 0 20 20"
 					fill="currentColor"
 				>
