@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Rubik:wght@300&display=swap');
-
-:root{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Rubik:wght@300&display=swap');:root{
   --white-color: #FFFFFF;
   --gray-color: #3A3B3C;
   --black-color: #242526;
@@ -16,6 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./components/Assets/rectangle.svg');
 }
 
 code {
