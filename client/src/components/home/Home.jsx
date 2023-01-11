@@ -1,14 +1,12 @@
 import React from 'react'
 import BottomHome from './BottomHome'
 import Navbar from './Navbar/Navbar'
-
 function Home() {
   return (
-    <>
-      <div>Home</div>
+    <div>
       <Navbar></Navbar>
       <BottomHome />
-    </>
+    </div>
   )
 }
 

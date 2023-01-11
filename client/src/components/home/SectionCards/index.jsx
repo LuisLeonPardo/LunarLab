@@ -1,8 +1,8 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Card from '../../Card';
 import styles from './index.module.css';
 import libertum from '../../Assets/libertum-icon.svg';
-import NavBarBottomHome from '../NavBarBottomHome'
+import NavBarBottomHome from '../NavBarBottomHome';
 const projects = [
 	{
 		title: 'Libertum',
@@ -13,7 +13,7 @@ const projects = [
 		totalRise: '2 600 000',
 		starts: 'TBA',
 		price: '1 LBM = 1.00 BUSD',
-		logo: libertum
+		logo: libertum,
 	},
 	{
 		title: null,
@@ -23,7 +23,7 @@ const projects = [
 		totalRise: null,
 		starts: null,
 		price: null,
-		logo: null
+		logo: null,
 	},
 	{
 		title: null,
@@ -33,7 +33,7 @@ const projects = [
 		totalRise: null,
 		starts: null,
 		price: null,
-		logo: null
+		logo: null,
 	},
 ];
 const projectsEnded = [
@@ -45,7 +45,7 @@ const projectsEnded = [
 		totalRise: null,
 		starts: null,
 		price: null,
-		logo: null
+		logo: null,
 	},
 	{
 		title: null,
@@ -55,7 +55,7 @@ const projectsEnded = [
 		totalRise: null,
 		starts: null,
 		price: null,
-		logo: null
+		logo: null,
 	},
 	{
 		title: null,
@@ -65,43 +65,42 @@ const projectsEnded = [
 		totalRise: null,
 		starts: null,
 		price: null,
-		logo: null
+		logo: null,
 	},
-]
+];
 function SectionCards() {
-	const [upcoming, setUpcoming] = useState(true)
+	const [upcoming, setUpcoming] = useState(true);
 	return (
 		<div className={styles.sectionCards}>
-			<NavBarBottomHome upcoming={upcoming} setUpcoming={setUpcoming}/>
-			{/* <h1>Upcomming IDOs</h1> */}
+			<NavBarBottomHome upcoming={upcoming} setUpcoming={setUpcoming} />
 			<div className={styles.cards}>
-				{upcoming ? projects.map((project, index) => (
-					<Card
-						key={index}
-						title={project.title}
-						status={project.status}
-						acronimo={project.acronimo}
-						description={project.description}
-						totalRise={project.totalRise}
-						starts={project.starts}
-						price={project.price}
-						logo={project.logo}
-					/>
-				))
-			: 
-			projectsEnded.map((project, index) => (
-				<Card
-					key={index}
-					title={project.title}
-					status={project.status}
-					acronimo={project.acronimo}
-					description={project.description}
-					totalRise={project.totalRise}
-					starts={project.starts}
-					price={project.price}
-					logo={project.logo}
-				/>
-			))}
+				{upcoming
+					? projects.map((project, index) => (
+							<Card
+								key={index}
+								title={project.title}
+								status={project.status}
+								acronimo={project.acronimo}
+								description={project.description}
+								totalRise={project.totalRise}
+								starts={project.starts}
+								price={project.price}
+								logo={project.logo}
+							/>
+					  ))
+					: projectsEnded.map((project, index) => (
+							<Card
+								key={index}
+								title={project.title}
+								status={project.status}
+								acronimo={project.acronimo}
+								description={project.description}
+								totalRise={project.totalRise}
+								starts={project.starts}
+								price={project.price}
+								logo={project.logo}
+							/>
+					  ))}
 			</div>
 		</div>
 	);
