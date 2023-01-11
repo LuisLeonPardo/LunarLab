@@ -8,3 +8,19 @@
     margin-bottom: 37px;
     margin-top: 47px;
 }
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+	.cards{
+        flex-direction: column;
+        gap: 26px;
+        justify-content: center;
+        align-items: center;
+    }
+    .sectionCards > h1{
+        text-align: center;
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import BottomHome from './BottomHome'
-import Navbar from './Navbar/NavBar'
+import Navbar from './Navbar/Navbar'
 
 function Home() {
   return (
