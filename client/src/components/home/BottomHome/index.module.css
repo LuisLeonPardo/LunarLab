@@ -1,6 +1,6 @@
 .bottomHome {
 	background-image: url('../../Assets/rectangle.svg');
 	color: white;
-	max-width: 1170px;
+	width: 100vw;
 	margin: auto;
 }

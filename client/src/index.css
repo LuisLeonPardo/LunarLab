@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Rubik:wght@300&display=swap');
+
 :root{
   --white-color: #FFFFFF;
   --gray-color: #3A3B3C;
   --black-color: #242526;
   --violet-color: #7072F0;
+  --ligth-violet-color: #5B5EE1;
+  --light-gray-color: #A3A3A3;
 }
 body {
   margin: 0;
