@@ -1,0 +1,10 @@
+.sectionCards{
+    display: flex;
+    flex-direction: column;
+    max-width: 1170px;
+    margin: auto;
+}
+.sectionCards > h1{
+    margin-bottom: 37px;
+    margin-top: 47px;
+}

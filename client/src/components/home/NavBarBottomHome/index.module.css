@@ -2,6 +2,8 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	max-width: 1170px;
+	margin: auto;
 }
 .navBarHomeBottom > div {
 	display: flex;
@@ -13,6 +15,7 @@
 	width: 102.92px;
 	height: 56px;
 	font-family: 'Inter';
+	font-weight: 700;
 	border: none;
 }
 .upcomming {
@@ -25,6 +28,7 @@
 	height: 56px;
 	border-radius: 8px;
 	font-family: 'Inter';
+	font-weight: 700;
 }
 .upcomming:hover{
     cursor: pointer;
