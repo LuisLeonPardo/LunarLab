@@ -44,7 +44,7 @@ function Card({
 						</li>
 					))}
 				</ul>
-				<span className={styles.status}>
+				<span className={`${status === 'finished' ? styles.finished : styles.notFinished} ${styles.status}`}>
 					{' '}
 					{status === 'finished' ? 'Register' : 'upcoming'}{' '}
 				</span>
@@ -58,12 +58,12 @@ function Card({
 				<div className={styles.info}>
 					<h3 className={styles.stats}>Total Raise</h3>
 					<h3 className={styles.valueTotal}>
-						{totalRise ? totalRise : '0 000 000'}
+						{totalRise ? `$${totalRise}` : '$0 000 000'}
 					</h3>
 				</div>
 				<div className={styles.info}>
 					<h3 className={styles.stats}>Starts</h3>
-					<h3 className={styles.valueStartsPrice}>{starts}</h3>
+					<h3 className={styles.valueStartsPrice}>TBA</h3>
 				</div>
 				<div className={styles.info}>
 					<h3 className={styles.stats}>Price</h3>
