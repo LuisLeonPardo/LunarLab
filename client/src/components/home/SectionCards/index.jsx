@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Card from '../../Card';
 import styles from './index.module.css';
 import libertum from '../../Assets/libertum-icon.svg';
@@ -36,14 +36,46 @@ const projects = [
 		logo: null
 	},
 ];
-
+const projectsEnded = [
+	{
+		title: null,
+		status: null,
+		acronimo: null,
+		description: null,
+		totalRise: null,
+		starts: null,
+		price: null,
+		logo: null
+	},
+	{
+		title: null,
+		status: null,
+		acronimo: null,
+		description: null,
+		totalRise: null,
+		starts: null,
+		price: null,
+		logo: null
+	},
+	{
+		title: null,
+		status: null,
+		acronimo: null,
+		description: null,
+		totalRise: null,
+		starts: null,
+		price: null,
+		logo: null
+	},
+]
 function SectionCards() {
+	const [upcoming, setUpcoming] = useState(true)
 	return (
 		<div className={styles.sectionCards}>
-			<NavBarBottomHome />
+			<NavBarBottomHome upcoming={upcoming} setUpcoming={setUpcoming}/>
 			{/* <h1>Upcomming IDOs</h1> */}
 			<div className={styles.cards}>
-				{projects.map((project, index) => (
+				{upcoming ? projects.map((project, index) => (
 					<Card
 						key={index}
 						title={project.title}
@@ -55,7 +87,21 @@ function SectionCards() {
 						price={project.price}
 						logo={project.logo}
 					/>
-				))}
+				))
+			: 
+			projectsEnded.map((project, index) => (
+				<Card
+					key={index}
+					title={project.title}
+					status={project.status}
+					acronimo={project.acronimo}
+					description={project.description}
+					totalRise={project.totalRise}
+					starts={project.starts}
+					price={project.price}
+					logo={project.logo}
+				/>
+			))}
 			</div>
 		</div>
 	);

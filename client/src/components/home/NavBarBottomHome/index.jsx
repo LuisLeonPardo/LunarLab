@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
 import styles from './index.module.css';
 
-function NavBarBottomHome() {
+function NavBarBottomHome({upcoming, setUpcoming}) {
 	const [upcomming, setUpcomming] = useState(true);
 	const [ended, setEnded] = useState(false);
 
 	const handleUpcomming = () => {
 		setUpcomming(true);
 		setEnded(false);
+		setUpcoming(true)
 	};
 	const handleEnded = () => {
 		setEnded(true);
 		setUpcomming(false);
+		setUpcoming(false)
 	};
 	return (
 		<div className={styles.navBarWrap}>

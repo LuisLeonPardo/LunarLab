@@ -50,10 +50,14 @@
 .active {
 	background-color: var(--white-color);
 	color: var(--violet-color);
+	transition: 0.25s;
+
 }
 .notActive {
 	background-color: var(--gray-color);
 	color: var(--white-color);
+	transition: 0.25s;
+
 }
 .navBarHomeBottom > input {
 	width: 288px;
