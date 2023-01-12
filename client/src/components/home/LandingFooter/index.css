@@ -1,0 +1,14 @@
+.contenedor-landing-footer {
+    height: 311px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-landing-footer img {
+    width: 942px;
+    height: 72px;
+    left: 489px;
+    top: 888px;
+}

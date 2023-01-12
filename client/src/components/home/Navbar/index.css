@@ -1,13 +1,9 @@
 .contenedor-navBar {
-
     display: flex;
     height: 168px;
-    background: url(../../Assets/Rectangle\ 2.svg);
-
 }
 
 .navBar {
-    background-image: url('../../Assets/rectangle.svg');
     color: white;
     width: 1170px;
     height: 39px;
@@ -39,7 +35,6 @@
 }
 
 .navBar-iconoLunarLab {
-    background-image: url('../../Assets/Group\ 27848.svg');
     width: 158px;
     height: 24px;
     margin-top: 7px;
@@ -58,7 +53,7 @@
     margin-top: 1.2px;
     margin-bottom: 1.2px;
     margin-left: 46px;
-    color: #262BC1;
+    color: #FFFFFF;
 }
 
 #navBar-btn-whitepaper {
@@ -105,8 +100,4 @@
     font-weight: 700;
     font-size: 15px;
     line-height: 24px;
-}
-
-h1 {
-    gap: 10;
 }

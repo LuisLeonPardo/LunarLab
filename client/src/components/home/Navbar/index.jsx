@@ -1,12 +1,15 @@
 import React from 'react'
-import './NavBar.css'
+import './index.css'
 import { Link } from 'react-router-dom'
+import LunarLab from '../../Assets/LUNARLAB.svg'
 
 function Navbar() {
     return (
         <div className="contenedor-navBar">
             <div className='navBar'>
-                <div className='navBar-iconoLunarLab'></div>
+                <div className='navBar-iconoLunarLab'>
+                    <img src={LunarLab} alt="" />
+                </div>
                 <div className='navBar-iconosNavBar'>
                     <div className='navBarLinks'>
                         <Link id='navBar-btn-home' to="/home">Home</Link>
