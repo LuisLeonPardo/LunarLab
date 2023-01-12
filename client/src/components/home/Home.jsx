@@ -1,12 +1,15 @@
 import React from 'react'
 import BottomHome from './BottomHome'
-import Navbar from './Navbar/NavBar'
+import Navbar from './Navbar'
+import Landing from './Landing'
+import LandingFooter from './LandingFooter'
 
 function Home() {
   return (
     <>
-      <div>Home</div>
-      <Navbar></Navbar>
+      <Navbar />
+      <Landing />
+      <LandingFooter />
       <BottomHome />
     </>
   )
