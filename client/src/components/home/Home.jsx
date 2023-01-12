@@ -11,7 +11,7 @@ function Home() {
       <Landing />
       <LandingFooter />
       <BottomHome />
-    </>
+    </div>
   )
 }
 
