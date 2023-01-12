@@ -38,7 +38,27 @@
     width: 158px;
     height: 24px;
     margin-top: 7px;
-    margin-bottom: 8px;
+    margin-left: 0px;
+    display: flex;
+}
+
+.navBar-iconoLunarLab img {
+    width: 27px;
+    height: 24px;
+    margin-top: 7px;
+    margin-left: 0px;
+}
+
+.navBar-iconoLunarLab p {
+    width: 122px;
+    height: 24px;
+    margin-top: 7px;
+    margin-left: 9px;
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.76px;
 }
 
 .navBarLinks {
@@ -100,4 +120,5 @@
     font-weight: 700;
     font-size: 15px;
     line-height: 24px;
+    cursor: pointer;
 }

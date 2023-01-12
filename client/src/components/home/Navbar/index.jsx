@@ -8,7 +8,8 @@ function Navbar() {
         <div className="contenedor-navBar">
             <div className='navBar'>
                 <div className='navBar-iconoLunarLab'>
-                    <img src={LunarLab} alt="" />
+                    <img src={LunarLab} alt="LunarLab" />
+                    <p>LUNARLAB</p>
                 </div>
                 <div className='navBar-iconosNavBar'>
                     <div className='navBarLinks'>
