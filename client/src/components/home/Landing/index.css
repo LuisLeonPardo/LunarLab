@@ -81,3 +81,42 @@
     margin-left: -258px;
     margin-top: -0.5px;
 }
+
+
+@media (max-width: 1200px) {
+    .contenedor-landing div {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        isolation: isolate;
+        width: 334px;
+        height: 681px;
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+        z-index: 4;
+    }
+
+    .contenedor-landing div p#landing-label {
+        width: 250px;
+        height: 100px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .contenedor-landing img {
+        position: absolute;
+        opacity: 0.2;
+        width: 800px;
+        height: 681px;
+        left: calc(50% - 368px/2 + 1.5px);
+        top: 150px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        z-index: 0;
+    }
+}
