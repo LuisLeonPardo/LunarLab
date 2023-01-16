@@ -3,23 +3,17 @@
     height: 601px;
 }
 
-.contenedor-landing img {
-    position: absolute;
-    width: 739px;
-    height: 601px;
-    left: 806px;
-    top: 168px;
-}
-
 .contenedor-landing div {
-    position: absolute;
+    /* position: absolute; */
     width: 675px;
     height: 237px;
-    left: 388px;
-    top: 350px;
+    margin-left: 388px;
+    margin-top: 180px;
 }
 
 .contenedor-landing div h1 {
+    padding: 0px;
+    margin: 0px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -28,8 +22,7 @@
     align-items: center;
     letter-spacing: 0.4px;
     color: #FFFFFF;
-    padding: 0px;
-    margin-top: 0px;
+    align-items: center;
 }
 
 .contenedor-landing div h1 span {
@@ -37,31 +30,93 @@
 }
 
 .contenedor-landing div p {
+    width: 404px;
+    height: 44px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
     color: #FFFFFF;
-    margin-top: 16px;
+    display: flex;
+    letter-spacing: 0.4px;
 }
 
 .contenedor-landing button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 7px 25px 8px;
     width: 147px;
     height: 39px;
-    margin-top: 26px;
-    padding: 7px 25px 8px;
     background: #FFFFFF;
     border-radius: 100px;
     border: none;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.contenedor-landing button p {
+    width: 97px;
+    height: 24px;
+    margin-top: 7px;
+    margin-left: 25px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 24px;
+    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.16px;
     color: #4548C8;
-    margin-top: 26px;
+    cursor: pointer;
+}
+
+.contenedor-landing img {
+    /* position: absolute; */
+    width: 739px;
+    height: 601px;
+    margin-left: -258px;
+    margin-top: -0.5px;
+}
+
+
+@media (max-width: 1200px) {
+    .contenedor-landing div {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        isolation: isolate;
+        width: 334px;
+        height: 681px;
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+        z-index: 4;
+    }
+
+    .contenedor-landing div p#landing-label {
+        width: 250px;
+        height: 100px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .contenedor-landing img {
+        position: absolute;
+        opacity: 0.2;
+        width: 800px;
+        height: 681px;
+        left: calc(50% - 368px/2 + 1.5px);
+        top: 150px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        z-index: 0;
+    }
 }

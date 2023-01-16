@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './index.module.css';
 
-function NavBarBottomHome({upcoming, setUpcoming}) {
+function NavBarBottomHome({ upcoming, setUpcoming }) {
 	const [upcomming, setUpcomming] = useState(true);
 	const [ended, setEnded] = useState(false);
 
@@ -21,17 +21,15 @@ function NavBarBottomHome({upcoming, setUpcoming}) {
 				<div>
 					<button
 						onClick={handleUpcomming}
-						className={`${upcomming ? styles.active : styles.notActive} ${
-							styles.upcomming
-						}`}
+						className={`${upcomming ? styles.active : styles.notActive} ${styles.upcomming
+							}`}
 					>
 						Upcoming
 					</button>
 					<button
 						onClick={handleEnded}
-						className={`${ended ? styles.active : styles.notActive} ${
-							styles.ended
-						}`}
+						className={`${ended ? styles.active : styles.notActive} ${styles.ended
+							}`}
 					>
 						Ended
 					</button>

@@ -1,14 +1,14 @@
 import React from 'react'
 import './index.css'
 import { Link } from 'react-router-dom'
-import LunarLab from '../../Assets/LUNARLAB.svg'
+import LunarLab from '../../Assets/Group 27848.svg'
 
 function Navbar() {
     return (
         <div className="contenedor-navBar">
             <div className='navBar'>
                 <div className='navBar-iconoLunarLab'>
-                    <img src={LunarLab} alt="" />
+                    <img src={LunarLab} alt="LunarLab" />
                 </div>
                 <div className='navBar-iconosNavBar'>
                     <div className='navBarLinks'>
