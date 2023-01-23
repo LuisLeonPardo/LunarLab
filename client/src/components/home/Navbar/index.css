@@ -1,0 +1,125 @@
+.contenedor-navBar {
+    display: flex;
+    height: 168px;
+}
+
+.navBar {
+    color: white;
+    width: 1170px;
+    height: 39px;
+    margin-top: 66px;
+    margin-left: 375px;
+    margin-right: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar a {
+    text-decoration: none;
+}
+
+.navBar-iconosNavBar {
+    width: 604px;
+    height: 39px;
+    left: 566px;
+    top: 0px;
+    bottom: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+}
+
+.navBar-iconoLunarLab {
+    width: 158px;
+    height: 24px;
+    margin-top: 7px;
+    margin-left: 0px;
+    display: flex;
+}
+
+.navBar-iconoLunarLab img {
+    height: 24px;
+    width: 158px;
+}
+
+.navBarLinks {
+    width: 439px;
+    height: 22.41px;
+    margin-top: 8px;
+}
+
+#navBar-btn-home {
+    width: 43px;
+    height: 20px;
+    margin-top: 1.2px;
+    margin-bottom: 1.2px;
+    margin-left: 46px;
+    color: #FFFFFF;
+}
+
+#navBar-btn-whitepaper {
+    width: 91px;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 1.2px;
+    margin-bottom: 1.2px;
+    color: #FFFFFF;
+}
+
+#navBar-btn-contacts {
+    width: 79px;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 1.2px;
+    margin-bottom: 1.2px;
+    color: #FFFFFF;
+}
+
+#navBar-btn-faq {
+    width: 28px;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 1px;
+    margin-bottom: 1.41px;
+    margin-right: 32px;
+    color: #FFFFFF;
+}
+
+.navBar-btn-connect {
+    align-items: flex-start;
+    padding: 7px 25px 8px;
+    width: 165px;
+    height: 39px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+    color: #4548C8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .contenedor-navBar {
+        display: flex;
+        justify-content: center;
+        width: 1230px;
+        height: 375px;
+        left: 375px;
+        top: 0px;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        z-index: 2;
+    }
+}
