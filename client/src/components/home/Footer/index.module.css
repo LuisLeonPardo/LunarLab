@@ -1,6 +1,7 @@
 .footerLunar {
 	background: url('../../Assets/rectangle.svg');
 	max-width: 1170px;
+	width: 100%;
 	margin: 100px auto 42px auto;
 }
 .wraperAboutNav {
@@ -70,7 +71,6 @@
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
-    margin-top: 77px;
 }
 .wrapper > ul {
 	display: flex;
@@ -89,12 +89,18 @@
 	line-height: 22px;
     color: var(--white-color)
 }
-@media screen and (min-width: 360px) and (max-width: 768px){
+@media screen and (max-width: 768px){
 	.footerLunar{
-		margin: 26px auto 15px auto;
+		margin: 26px auto 15px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
 	}
 	.about{
 		align-items: center;
+		width: 100%;
 	}
 	.about > p{
 		display: none;
@@ -112,7 +118,6 @@
 	.wrapper{
 		flex-direction: column;
 		align-items: center;
-		margin-top: 20px;
 	}
 	.wrapper > p{
 		color: var(--gray-color);

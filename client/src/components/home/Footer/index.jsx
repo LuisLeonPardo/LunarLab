@@ -30,6 +30,7 @@ function Footer() {
 					</ul>
 				</nav>
 			</div>
+			<hr/>
 			<div className={styles.wrapper}>
 				<ul>
 					<li>

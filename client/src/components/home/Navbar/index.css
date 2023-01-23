@@ -1,15 +1,15 @@
 .contenedor-navBar {
     display: flex;
     height: 168px;
+    width: 100%;
 }
 
 .navBar {
+    box-sizing: border-box;
     color: white;
-    width: 1170px;
+    width: 100%;
     height: 39px;
     margin-top: 66px;
-    margin-left: 375px;
-    margin-right: 375px;
     display: flex;
     justify-content: space-between;
 }

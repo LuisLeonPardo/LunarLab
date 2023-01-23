@@ -1,0 +1,117 @@
+.container {
+    max-width: 100;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+	font-family: 'Inter';
+    margin: 5rem 23rem;
+}
+
+.firstSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.textHalf {
+    width: 70%;
+}
+.imageHalf {
+    width: 30%;
+    object-fit: cover;
+    overflow: hidden;
+    padding-right: 50px;
+}
+.whiteLargeTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.4px;
+    margin: 0;
+}
+.blueText {
+    margin: 0;
+    color: #4548C8;
+}
+.whiteText {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+.whiteButton {
+    color:#4548C8;
+    padding: 8px 25px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.16px;
+}
+
+.secondSection {
+    width: 100%;
+    background: #262ABF;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whiteMidTitle {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    letter-spacing: 0.4px;
+}
+.whiteThinText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.16px;
+}
+
+.thirdSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.whiteSmallTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0;
+}
+.grayText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.blueButton {
+    background: #5B5EE1;
+    padding: 13px 20px;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.16px;
+}
