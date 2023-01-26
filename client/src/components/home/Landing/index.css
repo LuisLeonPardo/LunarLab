@@ -32,12 +32,17 @@
 .contenedor-landing div p {
     width: 404px;
     height: 44px;
+
+    left: 388px;
+    top: 478px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
+
     color: #FFFFFF;
+
     display: flex;
     letter-spacing: 0.4px;
 }

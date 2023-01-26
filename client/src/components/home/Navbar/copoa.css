@@ -1,44 +1,40 @@
-.contenedor-navBar {
-    display: flex;
-    justify-content: center;
-}
-
 @media only screen and (min-width: 2049px) and (max-width: 4480px) {
 
     /* Estilos para pantallas 4K */
-    .contenedor-navBar .container {
-        width: 1170px;
-        border: 5px solid green;
+    .contenedor-navBar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pixeles {
+        color: deeppink;
     }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 2048px) {
 
     /* Estilos para pantallas FHD */
-    .contenedor-navBar .container {
-        width: 1245px;
-        border: 0;
-        padding: 0;
+    .contenedor-navBar {
+        display: flex;
+        height: 168px;
     }
 
-    .contenedor-navBar .container .navBar {
+    .navBar {
         color: white;
-        width: 1160px;
+        width: 1170px;
         height: 39px;
         margin-top: 50px;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 300px;
+        margin-right: 375px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        border: 0;
     }
 
-    .contenedor-navBar .container .navBar a {
+    .navBar a {
         text-decoration: none;
     }
 
-    .contenedor-navBar .container .navBar-iconosNavBar {
+    .navBar-iconosNavBar {
         width: 604px;
         height: 39px;
         left: 566px;
@@ -54,7 +50,7 @@
         flex-direction: row;
     }
 
-    .contenedor-navBar .container .navBar-iconoLunarLab {
+    .navBar-iconoLunarLab {
         width: 158px;
         height: 24px;
         margin-top: 7px;
@@ -85,6 +81,7 @@
         margin-left: 46px;
     }
 
+
     #navBar-btn-whitepaper {
         width: 91px;
         height: 20px;
@@ -92,6 +89,15 @@
         margin-top: 1.2px;
         margin-bottom: 1.2px;
         color: #FFFFFF;
+    }
+
+    .active-link-home {
+        color: #262BC1;
+        width: 43px;
+        height: 20px;
+        margin-top: 1.2px;
+        margin-bottom: 1.2px;
+        margin-left: 46px;
     }
 
     #navBar-btn-contacts {
@@ -137,48 +143,30 @@
 
 }
 
-
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
 
-    body {
-        width: 100%;
-    }
-
+    /* Estilos para pantallas HD */
     .contenedor-navBar {
         display: flex;
-        border: 0;
-        padding: 0;
+        height: 168px;
     }
 
-    /* Estilos para pantallas HD */
-    .contenedor-navBar .container {
-        width: 850px;
-        border: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-    .contenedor-navBar .container .navBar {
+    .navBar {
         color: white;
-        width: 840px;
+        width: 850px;
         height: 39px;
-        margin-top: 50px;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-top: 66px;
+        margin-left: 274px;
+        margin-right: 274px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        border: 0;
     }
 
-    .contenedor-navBar .container .navBar a {
+    .navBar a {
         text-decoration: none;
     }
 
-    .contenedor-navBar .container .navBar-iconosNavBar {
+    .navBar-iconosNavBar {
         width: 604px;
         height: 39px;
         left: 566px;
@@ -194,7 +182,7 @@
         flex-direction: row;
     }
 
-    .contenedor-navBar .container .navBar-iconoLunarLab {
+    .navBar-iconoLunarLab {
         width: 158px;
         height: 24px;
         margin-top: 7px;
@@ -232,6 +220,15 @@
         margin-top: 1.2px;
         margin-bottom: 1.2px;
         color: #FFFFFF;
+    }
+
+    .active-link-home {
+        color: #262BC1;
+        width: 43px;
+        height: 20px;
+        margin-top: 1.2px;
+        margin-bottom: 1.2px;
+        margin-left: 46px;
     }
 
     #navBar-btn-contacts {
@@ -272,51 +269,35 @@
     }
 
     .pixeles {
-        color: yellow;
+        color: olivedrab;
     }
 }
+
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
     /* Estilos para pantallas medianas */
-    body {
-        width: 100%;
-    }
-
     .contenedor-navBar {
         display: flex;
-        border: 0;
-        padding: 0;
+        height: 168px;
     }
 
-    .contenedor-navBar .container {
-        width: 680px;
-        border: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .contenedor-navBar .container .navBar {
+    .navBar {
         color: white;
-        width: 879px;
+        width: 729px;
         height: 39px;
-        margin-top: 37px;
-        margin-bottom: 13px;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-top: 66px;
+        margin-left: 235px;
+        margin-right: 235px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        border: 0;
     }
 
-    .contenedor-navBar .container .navBar a {
+    .navBar a {
         text-decoration: none;
     }
 
-    .contenedor-navBar .container .navBar-iconosNavBar {
+    .navBar-iconosNavBar {
         width: 604px;
         height: 39px;
         left: 566px;
@@ -332,7 +313,7 @@
         flex-direction: row;
     }
 
-    .contenedor-navBar .container .navBar-iconoLunarLab {
+    .navBar-iconoLunarLab {
         width: 158px;
         height: 24px;
         margin-top: 7px;
@@ -363,6 +344,7 @@
         margin-left: 46px;
     }
 
+
     #navBar-btn-whitepaper {
         width: 91px;
         height: 20px;
@@ -370,6 +352,15 @@
         margin-top: 1.2px;
         margin-bottom: 1.2px;
         color: #FFFFFF;
+    }
+
+    .active-link-home {
+        color: #262BC1;
+        width: 43px;
+        height: 20px;
+        margin-top: 1.2px;
+        margin-bottom: 1.2px;
+        margin-left: 46px;
     }
 
     #navBar-btn-contacts {
@@ -410,52 +401,36 @@
     }
 
     .pixeles {
-        color: cyan;
+        color: palegoldenrod;
     }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-    body {
-        width: 100%;
-    }
-
+    /* Estilos para pantallas pequeñas */
     .contenedor-navBar {
         display: flex;
-        border: 0;
-        padding: 0;
+        height: 168px;
     }
 
-    .contenedor-navBar .container {
-        width: 603px;
-        border: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-    .contenedor-navBar .container .navBar {
+    .navBar {
         color: white;
-        width: 590px;
+        width: 350px;
         height: 39px;
-        margin-top: 37px;
-        margin-bottom: 13px;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-top: 66px;
+        margin-left: 80px;
+        margin-right: 80px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        border: 0;
     }
 
-    .contenedor-navBar .container .navBar a {
+    .navBar a {
         text-decoration: none;
     }
 
-    .contenedor-navBar .container .navBar-iconosNavBar {
-        width: 400px;
+    .navBar-iconosNavBar {
+        width: 604px;
         height: 39px;
         left: 566px;
         top: 0px;
@@ -470,90 +445,95 @@
         flex-direction: row;
     }
 
-    .contenedor-navBar .container .navBar-iconoLunarLab {
-        width: 50px;
+    .navBar-iconoLunarLab {
+        width: 158px;
         height: 24px;
-        margin-top: 15px;
-        margin-bottom: 9px;
-    }
-
-    .contenedor-navBar .container .navBar-iconoLunarLab img {
-        width: 100px;
+        margin-top: 7px;
+        margin-bottom: 8px;
     }
 
     .navBarLinks {
-        width: 390px;
+        width: 439px;
         height: 22.41px;
         margin-top: 8px;
     }
 
     .active-link-home {
         color: #262BC1;
-        width: 15px;
+        width: 43px;
         height: 20px;
         margin-top: 1.2px;
         margin-bottom: 1.2px;
-        margin-left: 1px;
+        margin-left: 46px;
     }
 
     .active-link-home-no {
         color: #FFFFFF;
-        width: 15px;
+        width: 43px;
         height: 20px;
         margin-top: 1.2px;
         margin-bottom: 1.2px;
-        margin-left: 1px;
+        margin-left: 46px;
     }
 
+
     #navBar-btn-whitepaper {
-        width: 15px;
+        width: 91px;
         height: 20px;
-        margin-left: 12px;
+        margin-left: 40px;
         margin-top: 1.2px;
         margin-bottom: 1.2px;
         color: #FFFFFF;
     }
 
-    #navBar-btn-contacts {
-        width: 15px;
+    .active-link-home {
+        color: #262BC1;
+        width: 43px;
         height: 20px;
-        margin-left: 12px;
+        margin-top: 1.2px;
+        margin-bottom: 1.2px;
+        margin-left: 46px;
+    }
+
+    #navBar-btn-contacts {
+        width: 79px;
+        height: 20px;
+        margin-left: 40px;
         margin-top: 1.2px;
         margin-bottom: 1.2px;
         color: #FFFFFF;
     }
 
     #navBar-btn-faq {
-        width: 15px;
+        width: 28px;
         height: 20px;
-        margin-left: 12px;
+        margin-left: 40px;
         margin-top: 1px;
         margin-bottom: 1.41px;
-        margin-right: 6px;
+        margin-right: 32px;
         color: #FFFFFF;
     }
 
     .navBar-btn-connect {
         align-items: flex-start;
         padding: 7px 25px 8px;
-        width: 140px;
-        height: 30px;
+        width: 165px;
+        height: 39px;
         margin-left: 0px;
         margin-right: 0px;
-        margin-top: 4px;
         background: #FFFFFF;
         border-radius: 100px;
         border: none;
         color: #4548C8;
         font-family: 'Inter';
         font-style: normal;
-        font-weight: 1000;
-        font-size: 7.5px;
-        line-height: 10px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 24px;
     }
 
     .pixeles {
-        color: palevioletred;
+        color: orange;
     }
 }
 
@@ -565,241 +545,20 @@
         justify-content: center;
     }
 
-    body {
-        width: 100%;
+    .pixeles {
+        color: cyan;
     }
+}
 
+@media only screen and (min-width: 300px) and (max-width: 575px) {
+
+    /* Estilos para pantallas medianas */
     .contenedor-navBar {
         display: flex;
-        border: 0;
-        border: 2px solid salmon;
-        padding: 0;
-    }
-
-    .contenedor-navBar .container {
-        width: 466px;
-        border: 0;
-        border: 2px solid blue;
-        padding: 0;
-        display: flex;
         justify-content: center;
-        align-items: center;
-    }
-
-
-    .contenedor-navBar .container .navBar {
-        color: white;
-        width: 590px;
-        height: 39px;
-        margin-top: 37px;
-        margin-bottom: 13px;
-        margin-left: 0px;
-        margin-right: 0px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border: 0;
-        border: 2px solid green;
-    }
-
-    .contenedor-navBar .container .navBar a {
-        text-decoration: none;
-    }
-
-    .contenedor-navBar .container .navBar-iconosNavBar {
-        width: 400px;
-        height: 39px;
-        left: 566px;
-        top: 0px;
-        bottom: 0px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px;
-        text-transform: uppercase;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .contenedor-navBar .container .navBar-iconoLunarLab {
-        width: 50px;
-        height: 24px;
-        margin-top: 13px;
-        margin-bottom: 9px;
-    }
-
-    .contenedor-navBar .container .navBar-iconoLunarLab img {
-        width: 70px;
-    }
-
-    .navBarLinks {
-        width: 390px;
-        height: 22.41px;
-        margin-top: 8px;
-    }
-
-    .active-link-home {
-        color: #262BC1;
-        width: 7px;
-        height: 20px;
-        margin-top: 3.5px;
-        margin-left: 20px;
-        font-size: 11px;
-    }
-
-    .active-link-home-no {
-        color: #FFFFFF;
-        width: 15px;
-        height: 20px;
-        margin-top: 1.2px;
-        margin-bottom: 1.2px;
-        margin-left: 30px;
-        font-size: 11px;
-    }
-
-    #navBar-btn-whitepaper {
-        width: 15px;
-        height: 20px;
-        margin-left: 20px;
-        margin-top: 1.2px;
-        margin-bottom: 1.2px;
-        color: #FFFFFF;
-        font-size: 11px;
-    }
-
-    #navBar-btn-contacts {
-        width: 15px;
-        height: 20px;
-        margin-left: 20px;
-        margin-top: 1.2px;
-        margin-bottom: 1.2px;
-        color: #FFFFFF;
-        font-size: 11px;
-    }
-
-    #navBar-btn-faq {
-        width: 15px;
-        height: 20px;
-        margin-left: 20px;
-        margin-top: 1px;
-        margin-bottom: 1.41px;
-        margin-right: 6px;
-        color: #FFFFFF;
-        font-size: 11px;
-    }
-
-    .navBar-btn-connect {
-        align-items: flex-start;
-        padding: 7px 25px 8px;
-        width: 140px;
-        height: 30px;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 4px;
-        background: #FFFFFF;
-        border-radius: 100px;
-        border: none;
-        color: #4548C8;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 1000;
-        font-size: 7.5px;
-        line-height: 10px;
     }
 
     .pixeles {
-        color: aquamarine;
+        color: darkcyan;
     }
-}
-
-
-.menu-button {
-    /* Estilos para cuando el botón está oculto */
-    display: none;
-}
-
-.menu-button.visible {
-    /* Estilos para cuando el botón está visible */
-    display: block;
-    position: absolute;
-    right: 0;
-}
-
-
-@media (max-width: 575px) {
-
-    .container {
-        width: 85%;
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
-
-    .navBar {
-        margin: 0;
-        margin-top: 20px;
-        margin-bottom: 6px;
-        padding: 0;
-        border: 0;
-        width: 100%;
-    }
-
-    .container-img-btn {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 99px;
-        width: 98%;
-        height: 35px;
-    }
-
-    .menu-button {
-        /* Estilos para cuando el botón está oculto en pantallas pequeñas */
-        display: block;
-
-        /* button / straight / outline / small */
-        box-sizing: border-box;
-
-        /* Auto layout */
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 4px 15px;
-        gap: 10px;
-
-        position: absolute;
-        width: 77px;
-        height: 28px;
-        left: 277.5px;
-        top: 23px;
-
-        border: 1px solid #7E7979;
-        background-color: #201E29;
-        border-radius: 10px;
-    }
-
-    .menu-button span {
-        width: 46px;
-        height: 20px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-    }
-
-    .nav-link,
-    .navBar-btn-connect {
-        display: none;
-    }
-
 }
