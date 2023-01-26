@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './index.css'
+import { Link } from 'react-router-dom'
+
 import LunarLab from '../../Assets/Group 27848.svg'
 
 function Navbar() {
@@ -41,6 +43,7 @@ function Navbar() {
 
     return (
         <div className="contenedor-navBar">
+
             <div className='container'>
                 {/* <div className='pixeles'>Pixeles</div> */}
                 <div className='navBar'>
