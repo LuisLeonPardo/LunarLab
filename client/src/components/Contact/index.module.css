@@ -9,6 +9,8 @@
     color: #ffffff;
 	font-family: 'Inter';
     margin: 5rem 23rem;
+    gap: 8rem;
+    user-select: none;
 }
 
 .firstSection {
@@ -16,16 +18,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
 }
 .textHalf {
-    width: 70%;
+    position: relative;
+    left: 2%;
+    min-width: 56%;
+    z-index: 10;
 }
-.imageHalf {
-    width: 30%;
+.firstImageHalf {
+    height: 670px;
+    width: auto;
     object-fit: cover;
-    overflow: hidden;
-    padding-right: 50px;
+    position: relative;
+    right: 2%;
 }
 .whiteLargeTitle {
     font-style: normal;
@@ -33,7 +38,7 @@
     font-size: 48px;
     line-height: 56px;
     letter-spacing: 0.4px;
-    margin: 0;
+    margin: 0 0 2rem;
 }
 .blueText {
     margin: 0;
@@ -44,6 +49,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
+    margin: 3rem 0;
 }
 .whiteButton {
     color:#4548C8;
@@ -56,6 +62,10 @@
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.16px;
+    cursor: pointer;
+    transition: ease-in-out;
+    transition-duration: 500ms;
+    text-decoration: none;
 }
 
 .secondSection {
@@ -65,6 +75,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.secondTextHalf {
+    position: relative;
+    left: 13%;
+    min-width: 50%;
+    z-index: 10;
+}
+.secondImageHalf {
+    height: max-content;
+    width: auto;
+    object-fit: cover;
+    position: relative;
+    right: 10%;
 }
 .whiteMidTitle {
     margin: 0;
@@ -80,10 +103,11 @@
     font-size: 14px;
     line-height: 22px;
     letter-spacing: 0.16px;
+    margin: 2rem 0;
 }
 
 .thirdSection {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,6 +130,7 @@
 }
 .blueButton {
     background: #5B5EE1;
+    color: #FFFFFF;
     padding: 13px 20px;
     border-radius: 10px;
     font-style: normal;
@@ -114,4 +139,20 @@
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: ease-in-out;
+    transition-duration: 500ms;
+}
+.whiteButton:hover {
+    background-color: #5B5EE1;
+    color: #FFFFFF;
+    transition: ease-in-out;
+    transition-duration: 500ms;
+}
+.blueButton:hover {
+    background-color: #FFFFFF;
+    color: #5B5EE1;
+    transition: ease-in-out;
+    transition-duration: 500ms;
 }
