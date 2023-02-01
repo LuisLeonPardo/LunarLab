@@ -1,12 +1,25 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  min-height: 100vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.styleAppLayout{
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+}
+.Page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  /* z-index: 1; */
+  position: relative;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
