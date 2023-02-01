@@ -1,0 +1,132 @@
+
+
+.walletButton{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 38px;
+    background-color: #F4911A;
+    border-radius: 6px;
+    visibility: hidden;
+    color: #F4911A;
+    transition: color 3s, width .5s;
+    pointer-events: none;
+}
+.walletButton div, .walletButtonOpen div{
+    width: 160px;
+    text-overflow: ellipsis;
+    overflow: visible;
+    line-height: 0em;
+}
+
+.walletButtonOpen{
+    align-items: flex-start;
+    padding: 7px 25px 8px;
+    width: 165px;
+    height: 39px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+    color: #4548C8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.RainbowButton{
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+
+.chainModal{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 38px;
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 50%;
+    color: #4548C8;
+    border-radius: 1em;
+}
+
+.balanceModal{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 38px;
+    background-color: #ffffff;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    width: 50%;
+    color: #4548C8;
+    border-radius: 1em;
+}
+
+.balanceModal::-webkit-scrollbar{
+    display: none;
+}
+
+.ConnectedModal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 6px;
+    width: 204px;
+    visibility: visible;
+    height: 38px;
+    gap: .5em;
+    transition:  width 1s;
+}
+
+.button{
+    display: flex;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+}
+.ConnectedModalClosed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
+    border-radius: 6px;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    transition: width .6s,height .8s, visibility 1s;
+    
+}
+
+.ConnectedModalClosed button{
+    color: #F4911A;
+} 
+
+
+.WalletIcon{
+    display: flex;
+    opacity: 1;
+    transition: opacity 1.5s;
+    pointer-events: all;
+}
+.WalletIconClosed{
+    display: flex;
+    opacity: 0;
+    transition:opacity 0s;
+    cursor: none;
+    pointer-events: none
+}
+
