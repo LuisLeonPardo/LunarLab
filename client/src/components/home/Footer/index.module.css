@@ -1,0 +1,120 @@
+.footerLunar {
+	background: url('../../Assets/rectangle.svg');
+	max-width: 1170px;
+	margin: 100px auto 42px auto;
+}
+.wraperAboutNav {
+	display: flex;
+	justify-content: space-between;
+}
+.about {
+	width: 431.55px;
+	display: flex;
+	flex-direction: column;
+}
+.about > img{
+	height: 24px;
+	width: 158px;
+}
+.about > p {
+	text-align: justify;
+	color: var(--white-color);
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	letter-spacing: 0.16px;
+}
+.navFooter {
+	color: var(--white-color);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.navFooter > h4 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: #252ab7;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.16px;
+	height: 15px;
+	margin-bottom: 20px;
+}
+.navFooter > ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	margin: 0;
+}
+.navFooter > ul > li {
+	margin-bottom: 7px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 22px;
+}
+.hrFooter{
+	display: none;
+}
+.wrapper {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+    margin-top: 77px;
+}
+.wrapper > ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 0;
+	width: 216px;
+}
+
+.wrapper > p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 22px;
+    color: var(--white-color)
+}
+@media screen and (min-width: 360px) and (max-width: 768px){
+	.footerLunar{
+		margin: 26px auto 15px auto;
+	}
+	.about{
+		align-items: center;
+	}
+	.about > p{
+		display: none;
+	}
+	.navFooter{
+		display: none;
+	}
+	.hrFooter{
+		display: block;
+		width: 66%;
+	}
+	.wraperAboutNav{
+		margin-top: 24px;
+	}
+	.wrapper{
+		flex-direction: column;
+		align-items: center;
+		margin-top: 20px;
+	}
+	.wrapper > p{
+		color: var(--gray-color);
+	}
+}

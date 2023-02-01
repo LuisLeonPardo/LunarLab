@@ -1,7 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import Home from './components/home/Home';
+import { Route, Routes } from 'react-router-dom';
+import Footer from './components/home/Footer';
+import Modal from './components/home/Modal';
 
 function App() {
+<<<<<<< HEAD
   return (
     <div className="App">
       <header className="App-header">
@@ -19,6 +23,16 @@ function App() {
       </header>
     </div>
   );
+=======
+	return (
+		<div className="App">
+			<Routes>
+				<Route path="/home" element={[<Home />, <Footer />]} />
+				{/* <Route path="/modal" element={<Modal />} /> */}
+			</Routes>
+		</div>
+	);
+>>>>>>> 3249a83bf191bd523a697690bc9b93e0f1ce5be5
 }
 
 export default App;
