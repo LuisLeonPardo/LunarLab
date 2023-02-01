@@ -13,7 +13,9 @@
         -ms-flex-pack: center;
             justify-content: center;
 }
-
+.navBar{
+    width: 100%;
+}
 @media only screen and (min-width: 2049px) and (max-width: 4480px) {
 
     /* Estilos para pantallas 4K */
@@ -34,7 +36,7 @@
 
     .contenedor-navBar .container .navBar {
         color: white;
-        width: 1160px;
+        width: 100%;
         height: 39px;
         margin-top: 50px;
         margin-left: 0px;
