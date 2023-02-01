@@ -1,0 +1,26 @@
+{"data" : [
+    {
+        "name": "x3",
+        "busd": "0",
+        "boxes": "12",
+        "filled": "2"
+    },
+    {
+        "name": "x4",
+        "busd": "25",
+        "boxes": "12",
+        "filled": "2"
+    },
+    {
+        "name": "xXx",
+        "busd": "0",
+        "boxes": "12",
+        "filled": "1"
+    },
+    {
+        "name": "xGold",
+        "busd": "0",
+        "boxes": "15",
+        "filled": "1"
+    }
+]}
