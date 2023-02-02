@@ -1,8 +1,17 @@
 import React from 'react'
-import styles from './index.modules.css'
+import AccountPreview from './AccountPreview'
+import AsideCards from './AsideCards'
+import Header from './Header'
+import styles from './index.module.css'
+import SectionActivity from './SectionActivity'
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <div>
+      <Header />
+      <AccountPreview />
+      <SectionActivity />
+      <AsideCards />
+    </div>
   )
 }
 
