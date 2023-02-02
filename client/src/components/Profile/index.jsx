@@ -1,5 +1,6 @@
 import styles from "./index.module.css"
 import question from "../Assets/question.svg"
+import Copy from '../Assets/Copy.svg'
 import FCard from "./FCard"
 import info from "./info.json"
 import { useState } from "react"
@@ -21,6 +22,18 @@ export default function Profile() {
 
                     </div>
                     <div className={styles.linkP}>
+                        <div className={styles.title2}>
+                            <h3 className={styles.textPL}>Personal link</h3>
+                            <img src={question}/>
+                        </div>
+                        <a className={styles.link}>forsage.io/b/m6r4id</a>
+                        <div className={styles.link}>
+                            <img src={Copy} />
+                        </div>
+                        <div className={styles.signUp}>
+                            <h3 className={styles.textSU}>Not a member yet? Sign up with this upline</h3>
+                            <div className={styles.buttonSU}>Sign up</div>
+                        </div>
 
                     </div>
                </div>
