@@ -9,7 +9,7 @@ function App() {
 	return (
 		<div className="App">
 			<Routes>
-				<Route path="/" element={<Layout />}>
+				<Route element={<Layout />}>
 					{/* Aca adentro va todo lo que tenga navbar y footer */}
 					<Route path="home" element={<Home />} />
 					<Route path='dashboard' element={<Dashboard />} />

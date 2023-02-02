@@ -9,8 +9,8 @@ function Dashboard() {
     <div>
       <Header />
       <AccountPreview />
-      <SectionActivity />
-      <AsideCards />
+      {/* <SectionActivity />
+      <AsideCards /> */}
     </div>
   )
 }
