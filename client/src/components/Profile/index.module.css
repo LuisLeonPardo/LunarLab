@@ -1,0 +1,275 @@
+.generalP {
+    width: 100vw;
+    min-height: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contentP {
+    width: 55%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.headerP {
+    width: 100%;
+    height: 178px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infoP {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.forsageP {
+    width: 100%;
+    height: 556px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.bodyP {
+    width: 100%;
+    height: 871px;
+    display: flex;
+    flex-direction: column;
+}
+
+.disclaimerP {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
+.linkP {
+    width: 48%;
+    height: 100%;
+    background: rgba(64, 106, 255, 0.1);
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profileP {
+    width: 48%;
+    height: 100%;
+}
+
+.rowP {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card1 {
+    background: #242526;
+    border-radius: 20px;
+    width: 28%;
+    min-width: 110px;
+}
+
+.profitsP {
+    width: 48%;
+    height: 100%;
+    background: #242526;
+    border-radius: 20px;
+}
+
+.fheader {
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.title1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.infoRow {
+    height: 32px;
+    width: 75px;
+    background: #5B5EE1;
+    border-radius: 20px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.textInfo {
+    margin: 0px;
+    margin-left: 3px;
+    font-size: 16px;
+}
+
+.gridP {
+    width: 100%;
+    height: 488px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.activityH {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.activityC {
+    width: 100%;
+    height: 815px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column {
+    height: 815px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container1 {
+    height: 815px;
+    width: 65%;
+    background: #242526;
+    border-radius: 20px;
+}
+
+.container2 {
+    height: 140px;
+    width: 100%;
+    background: #242526;
+    border-radius: 20px;
+}
+
+.container3 {
+    height: 445px;
+    width: 100%;
+    background: #242526;
+    border-radius: 20px;
+}
+
+.textDisclaimer {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0px;
+}
+
+.title2 {
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.textPL {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.link {
+    width: 92%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #5B5EE1;
+}
+
+.signUp {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 92%;
+    border-top: 1.33333px solid rgba(255, 255, 255, 0.1);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textSU {
+    width: 64%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.buttonSU {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 79.67px;
+    height: 30px;
+    left: 380.33px;
+    background: #5B5EE1;
+    border-radius: 20px;
+    color: #FFFFFF;
+    user-select: none;
+}
