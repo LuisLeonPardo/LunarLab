@@ -22,14 +22,14 @@ function NavBarBottomHome({ upcoming, setUpcoming }) {
 					<button
 						onClick={handleUpcomming}
 						className={`${upcomming ? styles.active : styles.notActive} ${styles.upcomming
-							}`}
+							}  button`}
 					>
 						Upcoming
 					</button>
 					<button
 						onClick={handleEnded}
 						className={`${ended ? styles.active : styles.notActive} ${styles.ended
-							}`}
+							} button`}
 					>
 						Ended
 					</button>
