@@ -1,21 +1,21 @@
 // import './App.css';
 import Home from "./components/home/Home";
 import { Route, Routes } from "react-router-dom";
-import Footer from "./components/home/Footer";
-import Modal from "./components/home/Modal";
+import "./App.css";
+import Layout from "./components/Layout";
+import Dashboard from "./components/Dashboard";
 import RegisterDashboard from "./components/RegisterDashboard/RegisterDashboard";
-import Navbar from "./components/home/Navbar";
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/home" element={[<Home />, <Footer />]} />
-        {/* <Route path="/modal" element={<Modal />} /> */}
-        <Route
-          path="/register"
-          element={[<Navbar />, <RegisterDashboard />, <Footer />]}
-        />
+        <Route element={<Layout />}>
+          {/* Aca adentro va todo lo que tenga navbar y footer */}
+          <Route path="home" element={<Home />} />
+          <Route path="dashboard" element={<Dashboard />} />
+          <Route path="/register" element={<RegisterDashboard />} />
+        </Route>
       </Routes>
     </div>
   );

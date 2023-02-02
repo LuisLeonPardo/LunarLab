@@ -7,8 +7,6 @@ function Landing() {
         <div className='contenedor-landing'>
             <div>
                 <h1>Token launch platform for <span>innovative</span> projects</h1>
-                <p>Access public and special rounds of high-quality crypto projects</p>
-                <button>How To Start</button>
 
                 <p id='landing-label'>Access public and special rounds of high-quality crypto projects.</p>
                 <button><p>How To Start</p></button>
