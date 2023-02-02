@@ -1,0 +1,8 @@
+.dashboard__section{
+    width: 90%;
+    height: 870px;
+	max-width: 1120px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 60%  auto;
+}

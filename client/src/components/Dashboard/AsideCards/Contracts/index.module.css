@@ -1,0 +1,16 @@
+.contracts{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 30px;
+    color: white;
+}
+.contracts__p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.contracts__div{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
