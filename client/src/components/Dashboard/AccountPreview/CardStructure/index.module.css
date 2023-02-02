@@ -1,7 +1,9 @@
 .cardStructure{
     width: 90%;
-    height: 90%;
-    margin: auto;
+    height: 100%;
+    margin: auto 0px auto auto;
     background-color: var(--black-color);
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }

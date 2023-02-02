@@ -1,5 +1,7 @@
 .header {
-    margin: 160px auto;
+	grid-column-start: 1;
+	grid-column-end: 3;
+    margin: 160px auto 60px auto;
 	display: grid;
 	grid-template-columns: repeat(3, 16.6%) [three] auto;
 	grid-template-rows: repeat(3, 76px);
