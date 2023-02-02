@@ -1,8 +1,10 @@
 import React from 'react'
-
+import sty from './index.module.css'
 function SectionActivity() {
   return (
-    <div>SectionActivity</div>
+    <div className={`${sty.activity}`}>
+      
+    </div>
   )
 }
 

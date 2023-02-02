@@ -1,0 +1,8 @@
+.activity{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black-color);
+    border-radius: 20px;
+}
