@@ -5,6 +5,7 @@ import "./App.css";
 import Layout from "./components/Layout";
 import Dashboard from "./components/Dashboard";
 import RegisterDashboard from "./components/RegisterDashboard/RegisterDashboard";
+import Profile from "./components/Profile"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="home" element={<Home />} />
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="/register" element={<RegisterDashboard />} />
+          <Route path="/profile" element={<Profile />} />
         </Route>
       </Routes>
     </div>

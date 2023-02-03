@@ -10,7 +10,8 @@
 
 .contentP {
     width: 55%;
-    min-width: 900px;
+    min-width: 950px;
+    max-width: 1120px;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -349,6 +350,9 @@
     width: 65%;
     background: #242526;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container2 {
@@ -363,6 +367,24 @@
     width: 100%;
     background: #242526;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hr {
+	margin: 0px;
+	width: 90%;
+	align-self: center;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.p {
+	width: 90%;
+	margin-left: 5%;
+	font-weight: 400;
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.5);
 }
 
 .textDisclaimer1 {
@@ -456,4 +478,32 @@
     border-radius: 20px;
     color: #FFFFFF;
     user-select: none;
+}
+
+.seemore {
+    position: relative;
+    top: 12px;
+    width: 93%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.seeText {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-left: 10px;
 }
