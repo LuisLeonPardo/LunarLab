@@ -34,7 +34,7 @@
 }
 .active {
 	background-color: var(--white-color);
-	color: var(--violet-color);
+	color: var(--violet-color) !important;
 	transition: 0.25s;
 
 }

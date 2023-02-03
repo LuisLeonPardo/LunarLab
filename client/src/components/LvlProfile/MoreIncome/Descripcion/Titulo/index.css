@@ -1,0 +1,17 @@
+.titulo {
+    width: 454.15px;
+    height: 112px;
+}
+
+.titulo span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+
+    color: #FFFFFF;
+}
