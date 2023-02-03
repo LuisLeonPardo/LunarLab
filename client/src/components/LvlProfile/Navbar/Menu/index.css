@@ -1,0 +1,29 @@
+.menu {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li {
+    width: 5.5rem;
+    height: 1.25rem;
+    margin-left: 2.4rem;
+    list-style: none;
+    display: inline;
+}
+
+.menu li a {
+    font-size: 0.875rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.active-link {
+    color: #262BC1;
+}

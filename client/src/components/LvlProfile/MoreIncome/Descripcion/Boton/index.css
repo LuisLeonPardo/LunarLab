@@ -1,0 +1,33 @@
+.boton {
+    width: 162px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.boton button {
+    width: 162px;
+    height: 39px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 7px 25px 8px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 100px;
+}
+
+.boton button span {
+    width: 112px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.16px;
+    color: #4548C8;
+}

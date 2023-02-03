@@ -5,4 +5,21 @@
     height: 100%;
     background-color: var(--black-color);
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.activity__button{
+    width: 90%;
+    height: 45px;
+    margin: auto;
+    background-color: var(--gray-color);
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.activity__hr{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 90%;
+    align-self: center;
 }

@@ -1,0 +1,9 @@
+.descripcion {
+    width: 600px;
+    height: 242px;
+    margin-top: 49px;
+    margin-left: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
