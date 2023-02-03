@@ -23,9 +23,9 @@ export default function FCard ({name, busd, boxes, filled, color}) {
     let boxGrid = []
     for(let i=1; i<=boxes; i++){
         if(i<=filled){
-            boxGrid.push(<div className={s.coloredBox}/>)
+            boxGrid.push(<div className={s.coloredBox} key={i}/>)
         }
-        else boxGrid.push(<div className={s.smallBox}/>)
+        else boxGrid.push(<div className={s.smallBox} key={i}/>)
     }
 
     return (

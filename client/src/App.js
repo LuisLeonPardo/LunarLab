@@ -5,6 +5,7 @@ import "./App.css";
 import Layout from "./components/Layout";
 import Dashboard from "./components/Dashboard";
 import RegisterDashboard from "./components/RegisterDashboard/RegisterDashboard";
+import Profile from "./components/Profile"
 import LiveProfile from "./components/LvlProfile";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="/register" element={<RegisterDashboard />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="lvlprofile" element={<LiveProfile /> } />  
         </Route>
       </Routes>
