@@ -1,0 +1,8 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1120px;
+    margin: 56px auto 0px auto
+}

@@ -9,8 +9,9 @@ function Dashboard() {
 		<div className={`${styles.dashboard}`}>
 			<Header />
 			<AccountPreview />
+			<h2 className={`${styles.dashboard__h2}`} >Platform recent activity</h2>
 			<section className={`${styles.dashboard__section}`}>
-				{/* <SectionActivity /> */}
+				<SectionActivity />
 				<AsideCards />
 			</section>
 		</div>

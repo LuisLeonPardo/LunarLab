@@ -1,0 +1,45 @@
+.rowActivity {
+	width: 90%;
+	height: 70px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.rowActivity__div {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.rowActivity__iconAction {
+	width: 20px;
+	height: 20px;
+	padding: 10px;
+	border-radius: 999px;
+}
+.buy {
+	background-color: rgba(44, 255, 78, 0.2);
+	color: #2cff4e;
+}
+.rowActivity__id {
+	color: #3e40c7;
+	background-color: rgba(64, 106, 255, 0.1);
+	padding: 5px 10px;
+	border-radius: 20px;
+	font-weight: 500;
+	font-size: 16px;
+}
+.rowActivity__colorWhite {
+	color: white;
+	font-weight: 400;
+	font-size: 16px;
+}
+.rowActivity__action {
+	color: var(--light-gray-color);
+}
+.rowActivity__contract {
+	color: #7737ff;
+}
+
+.rowActivity__share {
+	color: white;
+}
