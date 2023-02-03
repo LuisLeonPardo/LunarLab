@@ -1,7 +1,10 @@
 import s from "./index.module.css"
 import arrow2 from '../../Assets/arrow2.svg'
+import { useNavigate } from "react-router-dom";
 
 export default function FCard ({name, busd, boxes, filled, color}) {
+    const navigate = useNavigate()
+
     let colors =[
         {
             blue: '#5B5EE1',
@@ -28,6 +31,10 @@ export default function FCard ({name, busd, boxes, filled, color}) {
         else boxGrid.push(<div className={s.smallBox} key={i}/>)
     }
 
+    const handleClick = () => {
+        navigate('/lvlprofile')
+    }
+
     return (
         <div className={s.general} style={{backgroundImage: index.radial}}>
             <div className={s.header}>
@@ -38,7 +45,7 @@ export default function FCard ({name, busd, boxes, filled, color}) {
                 <div className={s.boxes}>
                     {boxGrid}
                 </div>
-                <div className={s.button} style={{background: Object.values(index)[0]}}>         
+                <div onClick={handleClick} className={s.button} style={{background: Object.values(index)[0]}}>         
                     <p className={s.textB}>Preview</p>
                     <img src={arrow2} alt=''/>
                 </div>
