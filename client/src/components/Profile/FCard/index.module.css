@@ -1,8 +1,93 @@
 .general {
     width: 48%;
     height: 224px;
-    background: #242526;
     border-radius: 20px;
     margin-bottom: 40px;
     color:#FFFFFF;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 88%;
+    justify-content: space-between;
+}
+
+.text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.body {
+    width: 88%;
+    height: 112px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.boxes {
+    height: 114px;
+    width: 190px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.button {
+    height: 48px;
+    width: 27%;
+    min-width: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.textB {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-right: 12px;
+}
+
+.smallBox {
+    height: 30px;
+    width: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.coloredBox {
+    height: 30px;
+    width: 30px;
+    background: #5B5EE1;
+    border-radius: 6px;
+    margin-right: 8px;
+    margin-bottom: 8px;
 }

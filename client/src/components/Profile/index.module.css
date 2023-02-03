@@ -10,6 +10,7 @@
 
 .contentP {
     width: 55%;
+    min-width: 900px;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -75,6 +76,103 @@
 .profileP {
     width: 48%;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profilePic {
+    display: flex;
+    flex-direction: row;
+    height: 148px;
+    width: 148px;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.profileColumn {
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.profileName {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-right: 40px;
+}
+
+.profileId {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #5B5EE1;
+    margin: 0px;
+}
+
+.profileAdress {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+.invitedBy {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.invitedId {
+    width: 92.44px;
+    height: 30px;
+    background: rgba(64, 106, 255, 0.1);
+    border-radius: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #5B5EE1;
+    justify-content: center;
 }
 
 .rowP {
@@ -90,6 +188,51 @@
     border-radius: 20px;
     width: 28%;
     min-width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card1H {
+    width: 72%;
+    display: flex;
+    flex-direction: row;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card1T {
+    margin-right: 5px;
+}
+
+.change {
+    width: 72%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.change2 {
+    width: 72%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #2CFF4E;
+
 }
 
 .profitsP {
@@ -97,6 +240,35 @@
     height: 100%;
     background: #242526;
     border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.division {
+    width: 100%;
+    max-width: 400px;
+    height: fit-content;
+    border-radius: 0px 0px 20px 0px
+}
+
+.cardP {
+    background: #242526;
+    border-radius: 20px;
+    width: 45%;
+    min-width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: auto;
 }
 
 .fheader {
@@ -193,7 +365,7 @@
     border-radius: 20px;
 }
 
-.textDisclaimer {
+.textDisclaimer1 {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -202,6 +374,18 @@
     display: flex;
     align-items: center;
     color: rgba(255, 255, 255, 0.5);
+    margin: 0px;
+}
+
+.textDisclaimer2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color:  #FFFFFF;
     margin: 0px;
 }
 
