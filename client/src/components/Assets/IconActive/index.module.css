@@ -1,0 +1,30 @@
+.first {
+	width: 40px;
+	height: 40px;
+	background-color: rgba(208, 58, 148, 0.2);
+	border-radius: 999px;
+    display: flex;
+}
+.second {
+	width: 50%;
+	height: 50%;
+	border-radius: 999px;
+	background: rgba(208, 58, 148, 0.3);
+    margin: auto;
+    display: flex;
+}
+.third{
+    width: 50%;
+	height: 50%;
+	border-radius: 999px;
+	background: rgba(208, 58, 148, 0.3);
+    margin: auto;
+    display: flex;
+}
+.fourth{
+    width: 50%;
+	height: 50%;
+	border-radius: 999px;
+	background: #D03A94;
+    margin: auto;
+}
