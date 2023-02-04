@@ -4,23 +4,18 @@ import {
   IoAlertCircleOutline,
   IoCheckmarkCircleOutline,
   IoRadioButtonOffOutline,
+  IoChatbubbleEllipsesOutline,
 } from "react-icons/io5";
 
 import { AiFillInfoCircle } from "react-icons/ai";
 
-import {
-  useAccount,
-  useConnect,
-  useDisconnect,
-  useNetwork,
-  useBalance,
-} from "wagmi";
+import { useAccount, useNetwork, useBalance } from "wagmi";
 
 function RegisterDashboard() {
   const { address, isConnected } = useAccount();
-  const { chain, chains } = useNetwork();
+  const { chain } = useNetwork();
 
-  const { data, isError, isLoading } = useBalance({
+  const { data } = useBalance({
     address: address,
   });
 
@@ -29,7 +24,7 @@ function RegisterDashboard() {
     token: "0xe9e7cea3dedca5984780bafc599bd69add087d56",
   });
 
-  console.log(balance.data?.formatted);
+  console.log(balance.data);
 
   var chainBool = false;
   chain?.id === 56 ? (chainBool = true) : (chainBool = false);
@@ -100,6 +95,25 @@ function RegisterDashboard() {
             <div className={style.Title}>
               <AiFillInfoCircle />
               <h1>Information</h1>
+            </div>
+            <div className={style.Info}>
+              <p>
+                <strong>Insufficient balance for registration.</strong>
+                <br />
+                Registration requires <strong>10 BUSD</strong> and at least
+                <strong> 0.005 BNB</strong> Your wallet ballance:{" "}
+                {balance.data?.formatted + " " + balance.data?.symbol} and{" "}
+                {data?.formatted + " " + data?.symbol}.
+              </p>
+            </div>
+            <button className={style.GuideButton}> Read guide</button>
+            <img src="./icons/video.png" alt="video" />
+            <div className={style.Help}>
+              <IoChatbubbleEllipsesOutline />
+              <p>
+                Need help with registration? <br />
+                Talk to experts in the <strong>support chat</strong>{" "}
+              </p>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     align-items: center;
     justify-content: center;
 }
@@ -115,7 +115,7 @@ border-radius: 10px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     align-items: center;
     text-align: center;
@@ -138,13 +138,53 @@ margin-top: 20px;
     border-radius: 20px;
     align-items: center;
     justify-content: center;
+    line-break: normal;
 }
 
+.Info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Info p, .Help p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Help p{
+    color:white;
+    height: 100%;
+    margin-top: 0;
+}
+
+.Info strong, .Help strong{
+    color: white;
+}
 .FlexInfo{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 80%;
     height:90%;
+    gap: 20px;
+}
+
+.Help{
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    width: 100%;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.Help svg{
+    width: 24px;
+    height: 24px;
+    color: rgba(255, 255, 255, 0.67);
 }
 
 .Title{
@@ -156,10 +196,27 @@ margin-top: 20px;
     font-weight: 300;
     font-size: 14px;
     align-items: center;
+    line-height: 0;
     gap: 20px;
 }
 
 .Title svg{
     width: 36px;
     height: 36px;
+}
+
+.GuideButton{
+    width: 128.52px;
+height: 44px;
+left: 0px;
+top: 116px;
+border: none;
+color: white;
+background: #5B5EE1;
+border-radius: 60px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
 }
