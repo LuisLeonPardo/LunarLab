@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import sty from './index.module.css';
 import RowActivity from './RowActivity';
 import { AiFillEye } from 'react-icons/ai';
@@ -80,19 +80,25 @@ const arr = [
 		action: 'bonus',
 		value: '120',
 	},
-	// {
-	// 	id: '789456',
-	// 	contract: 'x4',
-	// 	time: '1 hour',
-	// 	action: 'buy',
-	// 	value: '82',
-	// },
+	{
+		id: '789456',
+		contract: 'x4',
+		time: '1 hour',
+		action: 'buy',
+		value: '82',
+	},
 ];
 function SectionActivity() {
+	const [activityIndex, setActivityIndex] = useState(11)
+	const activity = arr.slice(0, activityIndex)
+	const handleClick = () => {
+		setActivityIndex(activityIndex + 10)
+		console.log(activityIndex)
+	}
 	return (
 		<div className={`${sty.activity}`}>
 			<div className={`${sty.activity__div}`}>
-				{arr.map((e, index) => (
+				{activity.map((e, index) => (
 					<>
 						<RowActivity
 							id={e.id}
@@ -107,7 +113,7 @@ function SectionActivity() {
 					</>
 				))}
 			</div>
-			<button className={`button ${sty.activity__button}`}>
+			<button className={`button ${sty.activity__button}`} onClick={handleClick}>
 				<AiFillEye />
 				See more
 			</button>
