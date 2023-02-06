@@ -29,6 +29,8 @@
     color: rgba(255, 255, 255, 0.5);
 }
 .header__buttonConnect {
+	display: flex;
+	align-items: center;
 	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 3;
@@ -37,7 +39,6 @@
     height: 60%;
     margin-top: 0px;
     margin-left: 35px;
-    background-color: var(--black-color);
 }
 .header__buttonHelp {
 	grid-column-start: 2;

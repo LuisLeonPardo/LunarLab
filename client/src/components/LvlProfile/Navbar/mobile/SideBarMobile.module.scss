@@ -1,0 +1,102 @@
+
+.BarMobile{    display: none;
+    pointer-events: none;}
+.wallet {
+    display: none;
+    pointer-events: none;
+}
+
+@media(max-width: 600px) {
+ .BarMobile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        pointer-events: all;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 4em;
+        z-index: 3;
+        position: relative;
+    }
+    .icon{
+        position: absolute;
+        right: 2em;
+        height: 2em;
+        width: 2em;
+    }
+
+    .BarMobile svg{
+        display: flex;
+        color: rgb(255, 255, 255);
+        height: 2em;
+        width: 2em;
+        cursor: pointer;
+    }
+    .BarMobile svg:hover{
+        color:--blue-color ;
+    }
+    .BarMobile a{
+        position: absolute;
+        left: 2em;
+
+    }
+    .wallet{
+        display: flex;
+        pointer-events: all;
+        height: 48px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .OpenMenu{
+        display: flex;
+        width: 10em;
+        height: 100vh;
+        position: fixed;
+        background-color: #1b1825;
+        z-index: 9 ;
+        box-shadow: 10px 48px 108px -61px rgba(0,0,0,0.47);
+        -webkit-box-shadow: 10px 48px 108px -61px rgba(0,0,0,0.47);
+        -moz-box-shadow: 10px 48px 108px -61px rgba(0,0,0,0.47);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Menu{
+        display: none;
+        pointer-events: none;
+    }
+
+    .Buttons{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4em;
+    }
+
+    .Buttons li {
+        width: 5.5rem;
+        height: 1.25rem;
+        display: inline;
+    }
+    
+    .Buttons li a {
+        font-size: 0.875rem;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    
+    .active-link {
+        color: #262BC1;
+    }
+}

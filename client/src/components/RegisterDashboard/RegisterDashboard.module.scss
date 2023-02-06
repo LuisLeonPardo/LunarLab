@@ -220,3 +220,30 @@ font-weight: 700;
 font-size: 16px;
 line-height: 24px;
 }
+
+@media(max-width:700px){
+
+    .Container{
+        width: 100vw;
+        height: 150vh;
+    }
+    .RegisterContainer{
+        flex-direction: column;
+        width: 90%;
+        min-height: 100%;
+        gap: 3em;
+    }
+
+    .Register{
+        width: 100%;
+    }
+    .Information{
+        width: 100%;
+    }
+
+    .CheckAgain{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
