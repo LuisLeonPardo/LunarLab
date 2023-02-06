@@ -1,7 +1,7 @@
 .header {
 	grid-column-start: 1;
 	grid-column-end: 3;
-    margin: 160px auto 60px auto;
+	margin: 160px auto 60px auto;
 	display: grid;
 	grid-template-columns: repeat(3, 16.6%) [three] auto;
 	grid-template-rows: repeat(3, 76px);
@@ -10,49 +10,95 @@
 	max-height: 228px;
 	background-color: var(--blue-color);
 	color: #fff;
-    border-radius: 16px;
+	border-radius: 16px;
+	position: relative;
+}
+.logged {
+	position: absolute;
+	top: -40px;
+	right: 0;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.currencyIcon {
+	padding: 3px;
+	border-radius: 999px;
+}
+.binance {
+	background-color: rgba(255, 255, 255, 0.1);
+	color: var(--yellow-binace);
+}
+.busd {
+	background-color: var(--yellow-binace);
+}
+.binanceGold {
+	background-color: var(--yellow-binace);
+}
+.smart {
+	color: rgba(255, 255, 255, 0.5);
+	margin-right: 35px;
+}
+.bnb{
+	color: rgba(255, 255, 255, 0.5);
+}
+.contract{
+	color: rgba(255, 255, 255, 0.5);
+	margin-right: 40px;
+}
+.logout{
+	background-color: transparent;
+	border: none;
+	width: fit-content;
+	color: #fff;
+	cursor: pointer;
+}
+.logoutIcon{
+	width: 20px;
+	height: 20px;
+}
+.vr {
+	height: 30px;
+	width: 30px;
+	color: var(--gray-color);
+	padding: 0;
+	margin: 0;
 }
 .header__h1 {
 	grid-column-start: 1;
 	grid-column-end: 4;
 	grid-row-start: 1;
 	grid-row-end: 2;
-    margin: auto 35px 5px; 
-    font-size: 40px;
+	margin: auto 35px 5px;
+	font-size: 40px;
 }
 .header__p {
 	grid-column-start: 1;
 	grid-column-end: 3;
 	grid-row-start: 2;
 	grid-row-end: 3;
-    margin: auto 35px;
-    color: rgba(255, 255, 255, 0.5);
-}
-.header__buttonConnect {
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 3;
-	grid-row-end: 4;
-    width: fit-content;
-    height: 60%;
-    margin-top: 0px;
-    margin-left: 35px;
-    background-color: var(--black-color);
+	margin: auto 35px;
+	color: rgba(255, 255, 255, 0.5);
 }
 .header__buttonHelp {
 	grid-column-start: 2;
 	grid-column-end: 3;
 	grid-row-start: 3;
 	grid-row-end: 4;
-    width: fit-content;
-    height: 60%;
-    margin: 0px auto;
-    background-color: rgba(255, 255, 255, 0.1);
+	width: fit-content;
+	height: 49px;
+	margin: 0px auto;
+	background-color: rgba(255, 255, 255, 0.1);
+	transition: 0.25s;
 }
-.header__img{
-    grid-column-start: 4;
+.header__buttonHelp:hover {
+	background-color: rgba(255, 255, 255, 0.25);
+}
+.header__img {
+	grid-column-start: 4;
 	grid-column-end: 5;
 	grid-row-start: 1;
 	grid-row-end: 4;
-    height: 99.7%;
+	height: 99.7%;
 }

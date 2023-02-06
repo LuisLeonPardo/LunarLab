@@ -80,13 +80,13 @@ const arr = [
 		action: 'bonus',
 		value: '120',
 	},
-	{
-		id: '789456',
-		contract: 'x4',
-		time: '1 hour',
-		action: 'buy',
-		value: '82',
-	},
+	// {
+	// 	id: '789456',
+	// 	contract: 'x4',
+	// 	time: '1 hour',
+	// 	action: 'buy',
+	// 	value: '82',
+	// },
 ];
 function SectionActivity() {
 	return (

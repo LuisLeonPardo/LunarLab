@@ -10,7 +10,7 @@
   --green-success: #4BB543;
   --blue-color:#262ABF;
   --blue-opacity-20:rgba(64, 106, 255, 0.2);
-  overflow-x: hidden;
+  --yellow-binace:#F3BA2F;
 }
 body {
   margin: 0;
