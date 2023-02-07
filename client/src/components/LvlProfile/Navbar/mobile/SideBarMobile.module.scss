@@ -1,9 +1,34 @@
 
 .BarMobile{    display: none;
-    pointer-events: none;}
+    pointer-events: none;
+position: fixed;}
 .wallet {
     display: none;
     pointer-events: none;
+}
+
+.wrapper {
+	display: flex;
+    position: relative;
+	width: 100%;
+	justify-content: space-between;
+}
+.wrapper > ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 0;
+	width: 216px;
+}
+
+.wrapper > p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 22px;
+    color: var(--white-color)
 }
 
 @media(max-width: 600px) {
@@ -12,13 +37,14 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        position: fixed;
         pointer-events: all;
         top: 0;
         left: 0;
         width: 100vw;
         height: 4em;
-        z-index: 3;
-        position: relative;
+        z-index: 10;
+        background-image: url('../../../Assets/rectangle.svg');
     }
     .icon{
         position: absolute;
@@ -52,16 +78,18 @@
 
     .OpenMenu{
         display: flex;
-        width: 10em;
+        width: 100%;
         height: 100vh;
         position: fixed;
-        background-color: #1b1825;
-        z-index: 9 ;
+        flex-direction: column;
+        background-image: url('../../../Assets/rectangle.svg');
+        z-index: 15 ;
         box-shadow: 10px 48px 108px -61px rgba(0,0,0,0.47);
         -webkit-box-shadow: 10px 48px 108px -61px rgba(0,0,0,0.47);
         -moz-box-shadow: 10px 48px 108px -61px rgba(0,0,0,0.47);
         align-items: center;
         justify-content: center;
+        gap: 4em;
     }
 
     .Menu{
@@ -71,17 +99,24 @@
 
     .Buttons{
         display: flex;
-        width: 100%;
-        height: 100%;
+        width: 80%;
         flex-direction: column;
         justify-content: center;
-        gap: 4em;
+        gap: 3em;
+        list-style-type: none;
+        padding: 0;
+        margin-top: 3em;
     }
 
     .Buttons li {
         width: 5.5rem;
         height: 1.25rem;
-        display: inline;
+    }
+
+    .Buttons span{
+        width: 100%;
+        height: 2px;
+        background-color: white;
     }
     
     .Buttons li a {
@@ -95,8 +130,18 @@
         text-decoration: none;
     }
     
-    
+    .ConnectButtom{
+        top:25em;
+    }
     .active-link {
         color: #262BC1;
     }
+
+    .wrapper{
+		flex-direction: column;
+		align-items: center;
+	}
+	.wrapper > p{
+		color: var(--gray-color);
+	}
 }

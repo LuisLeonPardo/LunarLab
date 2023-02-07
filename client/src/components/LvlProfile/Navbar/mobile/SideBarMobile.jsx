@@ -3,7 +3,7 @@ import style from "./SideBarMobile.module.scss";
 import { IoListOutline } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 import icon from "../../../Assets/Group 27848.svg";
-import Menu from "../Menu";
+import MobileMenu from "./MobileMenu";
 
 function SideBarMobile() {
   const [open, setOpen] = useState(false);
@@ -30,30 +30,7 @@ function SideBarMobile() {
           <IoListOutline />
         </div>
       </div>
-      <div className={open ? style.OpenMenu : style.Menu}>
-        <ul className={style.Buttons}>
-          <li>
-            <NavLink exact activeClassName="active-link" to="#">
-              DASHBOARD
-            </NavLink>
-          </li>
-          <li>
-            <NavLink exact activeClassName="active-link" to="#">
-              PROJECTS
-            </NavLink>
-          </li>
-          <li>
-            <NavLink exact activeClassName="active-link" to="#">
-              STAKING
-            </NavLink>
-          </li>
-          <li>
-            <NavLink exact activeClassName="active-link" to="#">
-              BUY $AIR
-            </NavLink>
-          </li>
-        </ul>
-      </div>
+      <MobileMenu open={open} />
     </div>
   );
 }

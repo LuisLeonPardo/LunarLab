@@ -5,7 +5,7 @@ import "./App.css";
 import Layout from "./components/Layout";
 import Dashboard from "./components/Dashboard";
 import RegisterDashboard from "./components/RegisterDashboard/RegisterDashboard";
-import Profile from "./components/Profile"
+import Profile from "./components/Profile";
 import LiveProfile from "./components/LvlProfile";
 
 function App() {
@@ -14,11 +14,46 @@ function App() {
       <Routes>
         <Route element={<Layout />}>
           {/* Aca adentro va todo lo que tenga navbar y footer */}
-          <Route path="/" element={<Home />} />
-          <Route path="dashboard" element={<Dashboard />} />
-          <Route path="/register" element={<RegisterDashboard />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="lvlprofile" element={<LiveProfile /> } />  
+          <Route
+            path="/"
+            element={
+              <div className="Pages">
+                <Home />
+              </div>
+            }
+          />
+          <Route
+            path="dashboard"
+            element={
+              <div className="Pages">
+                <Dashboard />
+              </div>
+            }
+          />
+          <Route
+            path="/register"
+            element={
+              <div className="Pages">
+                <RegisterDashboard />
+              </div>
+            }
+          />
+          <Route
+            path="/profile"
+            element={
+              <div className="Pages">
+                <Profile />
+              </div>
+            }
+          />
+          <Route
+            path="lvlprofile"
+            element={
+              <div className="Pages">
+                <LiveProfile />
+              </div>
+            }
+          />
         </Route>
       </Routes>
     </div>
