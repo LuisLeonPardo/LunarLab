@@ -2,21 +2,14 @@
 import React from 'react';
 import './index.css';
 import MoreIncome from './MoreIncome';
+import Forsage from './Forsage';
 
 function LiveProfile() {
 	return (
 		<div className="container">
-			<div className="container-a">
-				<MoreIncome className="home-more" />
-			</div>
-
-			<div className="container-b">
-				<h1>Contendor B</h1>
-			</div>
-
-			<div className="container-c">
-				<h1>Contendor C</h1>
-			</div>
+			<MoreIncome className="home-more" />
+			<Forsage />
+			<div id='div-separador' />
 		</div>
 	);
 }

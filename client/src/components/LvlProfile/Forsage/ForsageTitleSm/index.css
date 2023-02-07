@@ -1,0 +1,41 @@
+.forsage-title-sm {
+    width: 1040px;
+    height: 24px;
+    display: flex;
+}
+
+#forsage-tilte-id {
+    width: 90px;
+    height: 24px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+#forsage-tilte-por-tres {
+    width: 100px;
+    height: 24px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline;
+    color: #FFFFFF;
+}
+
+#forsage-tilte-levels {
+    width: 134px;
+    height: 24px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline;
+    color: #FFFFFF;
+}

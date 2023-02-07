@@ -1,5 +1,5 @@
 :root {
-    --alto-a: 1080px;
+    --alto-a: 2550px;
     --alto-b: 1080px;
     --alto-c: 390px;
     --alto: 2550px;
@@ -13,39 +13,10 @@
     height: auto;
     max-width: 100%;
     display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
-.container-a {
-    border: 2px solid sandybrown;
-    width: var(--ancho);
-    height: var(--alto-a);
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    position: absolute;
-    left: 0;
-    top: 0;
+    flex-direction: column;
 }
 
-.container-b {
-    border: 2px solid purple;
-    width: 119.5rem;
-    height: var(--alto-b);
-    max-width: 100%;
-    position: absolute;
-    left: 0;
-    top: 1081px;
-}
-
-.container-c {
-    border: 1px solid cyan;
-    width: var(--ancho);
-    height: var(--alto-c);
-    max-width: 100%;
-    position: absolute;
-    left: 0;
-    top: 2160px;
+#div-separador {
+    margin-top: 199.33px;
 }
