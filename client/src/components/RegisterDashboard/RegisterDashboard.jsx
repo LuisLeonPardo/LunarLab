@@ -10,6 +10,7 @@ import {
 import { AiFillInfoCircle } from "react-icons/ai";
 
 import { useAccount, useNetwork, useBalance } from "wagmi";
+import CustomConnectButtom from "../WalletConnect/CustomConnectButtom";
 
 function RegisterDashboard() {
   const { address, isConnected } = useAccount();
@@ -23,8 +24,6 @@ function RegisterDashboard() {
     address: address,
     token: "0xe9e7cea3dedca5984780bafc599bd69add087d56",
   });
-
-  console.log(balance.data);
 
   var chainBool = false;
   chain?.id === 56 ? (chainBool = true) : (chainBool = false);
@@ -88,7 +87,13 @@ function RegisterDashboard() {
               <p>Approve BUSD</p>
             </div>
           </div>
-          <button className={style.CheckAgain}>Check again </button>
+          {isConnected ? (
+            <button className={style.CheckAgain}>Check again </button>
+          ) : (
+            <div className={style.CheckAgain2}>
+              <CustomConnectButtom />
+            </div>
+          )}
         </div>
         <div className={style.Information}>
           <div className={style.FlexInfo}>
@@ -96,16 +101,28 @@ function RegisterDashboard() {
               <AiFillInfoCircle />
               <h1>Information</h1>
             </div>
-            <div className={style.Info}>
-              <p>
-                <strong>Insufficient balance for registration.</strong>
-                <br />
-                Registration requires <strong>10 BUSD</strong> and at least
-                <strong> 0.005 BNB</strong> Your wallet ballance:{" "}
-                {balance.data?.formatted + " " + balance.data?.symbol} and{" "}
-                {data?.formatted + " " + data?.symbol}.
-              </p>
-            </div>
+            {balance.data?.formatted < 10 ? (
+              <div className={style.Info}>
+                <p>
+                  <strong>Insufficient balance for registration.</strong>
+                  <br />
+                  Registration requires <strong>10 BUSD</strong> and at least
+                  <strong> 0.005 BNB</strong> Your wallet ballance:{" "}
+                  {balance.data?.formatted + " " + balance.data?.symbol} and{" "}
+                  {data?.formatted + " " + data?.symbol}.
+                </p>
+              </div>
+            ) : (
+              <div className={style.Info}>
+                <p>
+                  <br /> Your wallet ballance:{" "}
+                  <strong>
+                    {balance.data?.formatted + " " + balance.data?.symbol}
+                  </strong>{" "}
+                  and <strong>{data?.formatted + " " + data?.symbol}</strong>.
+                </p>
+              </div>
+            )}
             <button className={style.GuideButton}> Read guide</button>
             <img src="./icons/video.png" alt="video" />
             <div className={style.Help}>
