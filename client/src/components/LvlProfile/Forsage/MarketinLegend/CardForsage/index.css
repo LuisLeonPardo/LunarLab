@@ -1,0 +1,157 @@
+.card-main {
+    width: 180px;
+    height: 180px;
+    margin-top: 8px;
+    margin-left: 8px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-main-blue {
+    background: #406AFF
+}
+
+.card-main-black {
+    background: #363636
+}
+
+#primerafila {
+    width: 90%;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#primerafila-span {
+    width: 31.16px;
+    height: 18.67px;
+    margin-left: 20px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#primerafila-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+#primerafila-img-ico {
+    width: 12px;
+    height: 12px;
+    margin-top: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+#primerafila-img-span {
+    width: 10px;
+    height: 24px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+#segundafila {
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+}
+
+#tercerafila {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 58.2084px 0px 0px;
+    gap: 8px;
+
+    width: 55%;
+    height: 20px;
+    margin-top: 30px;
+}
+
+#tercerafila-div-uno {
+    display: flex;
+    justify-content: center;
+    width: 36.9px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+#tercerafila-div-uno-img {
+    width: 20px;
+    height: 20px;
+}
+
+#tercerafila-div-uno-span {
+    width: 9px;
+    height: 20px;
+    margin-left: 8px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+#tercerafila-div-dos {
+    display: flex;
+    justify-content: center;
+    width: 36.9px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+#tercerafila-div-dos-img {
+    width: 20px;
+    height: 20px;
+    margin-top: 5.23%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#tercerafila-div-dos-span {
+    width: 9px;
+    height: 20px;
+
+    margin-left: 8px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}

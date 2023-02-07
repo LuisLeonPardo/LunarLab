@@ -1,0 +1,101 @@
+.forsage-marketin-legend-details {
+    width: 95%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.forsage-general {
+    margin-top: 6px;
+    display: flex;
+}
+
+.forsage-general span {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.circulo {
+    width: 20px;
+    height: 20px;
+    border-radius: 9999px;
+}
+
+.white {
+    background: #FFFFFF;
+}
+
+.blue {
+    background: #69D4FA;
+}
+
+.forsage-marketin-legend-details-div-uno span {
+    width: 104.47px;
+    height: 18.67px;
+    margin-left: 10px;
+}
+
+.forsage-marketin-legend-details-div-dos {
+    width: 57.46px;
+    height: 24px;
+    margin-left: 30px;
+}
+
+.forsage-marketin-legend-details-div-dos span {
+    width: 27.66px;
+    height: 18.67px;
+    margin-left: 10px;
+}
+
+.forsage-marketin-legend-details-div-tres {
+    width: 170.67px;
+    height: 24px;
+    margin-left: 50px;
+}
+
+.forsage-marketin-legend-details-div-tres span {
+    width: 150px;
+    height: 24px;
+    margin-left: 10px;
+    display: inline;
+}
+
+#forsage-marketin-legend-details-div-tres-img {
+    width: 20px;
+    height: 20px;
+    color: #FFFFFF;
+}
+
+#forsage-marketin-legend-details-div-cuatro-img {
+    width: 20px;
+    height: 20px;
+}
+
+.forsage-marketin-legend-details-button {
+    width: 174.02px;
+    height: 32px;
+    margin-left: 30px;
+    background: #406AFF;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forsage-marketin-legend-details-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.forsage-marketin-legend-details-button span {
+    width: 129px;
+    height: 24px;
+    color: #FFFFFF;
+}

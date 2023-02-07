@@ -1,0 +1,39 @@
+.forsage-title-lg {
+    border: 2xp solid red;
+    width: 1040px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.33px;
+    margin-bottom: 40pxpx;
+}
+
+#forsage-title-lg-tleuno {
+    width: 213.49px;
+    height: 48px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#forsage-title-lg-tledos {
+    width: 149.95px;
+    height: 48px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
