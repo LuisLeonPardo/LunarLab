@@ -109,7 +109,7 @@ border-radius: 10px;
     color: #c23e47;
 }
 
-.CheckAgain{
+.CheckAgain , .CheckAgain2{
     width: 98px;
     height: 24px;
     font-family: 'Rubik';
@@ -127,6 +127,10 @@ height: 64px;
 background: #FFFFFF;
 border-radius: 10px;
 margin-top: 20px;
+}
+
+.CheckAgain2{
+    height: 12PX;
 }
 
 .Information{
