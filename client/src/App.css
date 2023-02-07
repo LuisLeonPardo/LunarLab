@@ -47,3 +47,9 @@
 		transform: rotate(360deg);
 	}
 }
+
+@media(max-width: 600px) {
+	.Pages{
+		margin-top: 4em;
+	}
+}
