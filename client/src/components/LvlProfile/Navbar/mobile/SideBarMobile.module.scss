@@ -74,8 +74,10 @@ position: fixed;}
         color:--blue-color ;
     }
     .BarMobile a{
+        display: flex;
         position: absolute;
         left: 2em;
+        justify-self: center;
 
     }
     .wallet{
