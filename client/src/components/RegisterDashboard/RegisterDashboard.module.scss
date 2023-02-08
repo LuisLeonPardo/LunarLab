@@ -1,0 +1,253 @@
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.RegisterContainer{
+    display: flex;
+    flex-direction: row;
+    width: 1042px;
+    height: 590px;
+}
+
+.Register{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 627px;
+    height: 100%;
+}
+.Register h1{
+width: 244px;
+height: 120px;
+left: 0px;
+margin-top: 0;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+
+.Upline{
+height: 86px;
+width: 317px;
+left: 0px;
+right: 0px;
+top: 160px
+}
+
+.Upline p{
+width: 83.37px;
+height: 18.67px;
+left: 0px;
+top: 2.67px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+
+color: rgba(255, 255, 255, 0.5);
+}
+
+.Upline input{
+height: 52px;
+width: 100%;
+left: 0px;
+right: 0px;
+top: 34px;
+background: rgba(255, 255, 255, 0.1);
+border: none;
+border-radius: 10px;
+}
+
+.Checks{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Checks div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.Checks svg{
+    height: 24px;
+    width: 24px;
+}
+
+.Green{
+    color: #2CFF4E;
+}
+
+.Red{
+    color: #c23e47;
+}
+
+.CheckAgain , .CheckAgain2{
+    width: 98px;
+    height: 24px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #5B5EE1;
+    display: flex;
+padding: 19.6667px 39.9167px 20.3333px 40px;
+width: 177.92px;
+height: 64px;
+background: #FFFFFF;
+border-radius: 10px;
+margin-top: 20px;
+}
+
+.CheckAgain2{
+    height: 12PX;
+}
+
+.Information{
+    display: flex;
+    flex-direction: column;
+    width: 415px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    line-break: normal;
+}
+
+.Info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Info p, .Help p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Help p{
+    color:white;
+    height: 100%;
+    margin-top: 0;
+}
+
+.Info strong, .Help strong{
+    color: white;
+}
+.FlexInfo{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height:90%;
+    gap: 20px;
+}
+
+.Help{
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    width: 100%;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.Help svg{
+    width: 24px;
+    height: 24px;
+    color: rgba(255, 255, 255, 0.67);
+}
+
+.Title{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    align-items: center;
+    line-height: 0;
+    gap: 20px;
+}
+
+.Title svg{
+    width: 36px;
+    height: 36px;
+}
+
+.GuideButton{
+    width: 128.52px;
+height: 44px;
+left: 0px;
+top: 116px;
+border: none;
+color: white;
+background: #5B5EE1;
+border-radius: 60px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+}
+
+@media(max-width:700px){
+
+    .Container{
+        width: 100vw;
+        height: 150vh;
+    }
+    .RegisterContainer{
+        flex-direction: column;
+        width: 90%;
+        min-height: 100%;
+        gap: 3em;
+    }
+
+    .Register{
+        width: 100%;
+    }
+    .Information{
+        width: 100%;
+    }
+
+    .CheckAgain{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}

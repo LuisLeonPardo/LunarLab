@@ -1,0 +1,21 @@
+.asideCards {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	display: grid;
+	grid-template-rows: auto auto 55%;
+	row-gap: 40px;
+}
+.asideCards__hr {
+	margin: 0px;
+	width: 90%;
+	align-self: center;
+	color: rgba(255, 255, 255, 0.2);
+    
+}
+.asideCards__p {
+	width: 90%;
+	margin-left: 5%;
+	font-weight: 400;
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.5);
+}

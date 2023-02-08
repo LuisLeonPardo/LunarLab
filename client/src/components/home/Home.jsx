@@ -1,20 +1,16 @@
-import React from 'react'
-import BottomHome from './BottomHome'
-import Navbar from './Navbar'
-import Landing from './Landing'
-import LandingFooter from './LandingFooter'
-import Modal from './Modal'
-
+import React from "react";
+import BottomHome from "./BottomHome";
+import Landing from "./Landing";
+import LandingFooter from "./LandingFooter";
+import "./home.css";
 function Home() {
   return (
-    <>
-      <Navbar />
+    <div className="home">
       <Landing />
       <LandingFooter />
       <BottomHome />
-      {/* <Modal /> */}
-    </>
-  )
+    </div>
+  );
 }
 
-export default Home
+export default Home;

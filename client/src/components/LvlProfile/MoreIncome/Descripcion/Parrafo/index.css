@@ -1,0 +1,19 @@
+.parrafo {
+    width: 584.08px;
+    height: 44px;
+    margin-top: 20px;
+}
+
+.parrafo span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.16px;
+
+    color: #FFFFFF;
+}

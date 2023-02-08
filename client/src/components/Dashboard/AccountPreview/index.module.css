@@ -1,0 +1,59 @@
+.accountPreview{
+    grid-column-start: 1;
+	grid-column-end: 3;
+    color: white;
+    width: 90%;
+    margin: auto;
+	max-width: 1120px;
+    height: 240px;
+    display: grid;
+    grid-template-columns: [one] 60% [two] auto;
+    grid-template-rows: [one] 37% [two] auto;
+}
+.accountPreview__h2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 0;
+}
+.accountPreview__p{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.card{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: [one] 50% [two] auto;
+}
+.card__p{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: auto 10%;
+}
+.card__button{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 70%;
+    width: fit-content;
+    margin: 0px 10%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.card__img{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100px;
+    height: 100px;
+    margin: auto 5% auto auto;
+}

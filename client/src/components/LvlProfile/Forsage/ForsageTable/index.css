@@ -1,0 +1,123 @@
+.table-forsage-main {
+    width: 100%;
+    height: 370px;
+    margin-top: 40px;
+    margin-bottom: 43.3px;
+    background: #242526;
+    border-radius: 20px;
+}
+
+.table-forsage-level {
+    width: 100%;
+}
+
+.table-forsage-level-thead {
+    box-sizing: border-box;
+    width: 100%;
+    height: 48.67px;
+    border-bottom: 1.33333px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.table-forsage-level-thead th {
+    width: 27px;
+    height: 16px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.table-forsage-level-tdisplay {
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 50px;
+
+    border-bottom: 1.33333px solid rgba(255, 255, 255, 0.1);
+}
+
+.cirulo-img {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: none;
+    border-right: none;
+    margin-left: none;
+    margin-right: none;
+}
+
+.table-forsage-level-img-upgrade-activation {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 9999px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-forsage-level-img-upgrade {
+    background: rgba(44, 255, 78, 0.1);
+}
+
+.table-forsage-level-img-activation {
+    background: rgba(64, 106, 255, 0.2);
+}
+
+
+.display-span {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: none;
+    border-right: none;
+    margin-left: none;
+    margin-right: none;
+}
+
+.display-date-span {
+    width: 100px;
+    height: 20px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+
+
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+.display-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallet-img {
+    margin-left: 8px;
+}
+
+.anchor-span-walllet {
+    width: 110px;
+}
+
+.color-update {
+    color: #2CFF4E;
+}
+
+.color-active {
+    color: #406AFF;
+}

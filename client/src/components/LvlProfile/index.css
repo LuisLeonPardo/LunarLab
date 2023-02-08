@@ -1,0 +1,21 @@
+:root {
+    --alto-a: 2550px;
+    --alto-b: 1080px;
+    --alto-c: 390px;
+    --alto: 2550px;
+    --ancho: 1920px;
+    --ancho: 99.78%;
+}
+
+.container {
+    width: 119.813rem;
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#div-separador {
+    margin-top: 199.33px;
+}

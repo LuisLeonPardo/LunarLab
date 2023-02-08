@@ -19,27 +19,12 @@
 	gap: 43px;
 }
 .ended {
-	padding: 13px 27.9218px 15px 28.0001px;
-	border-radius: 8px;
 	width: 102.92px;
 	height: 56px;
-	font-family: 'Inter';
-	font-weight: 700;
-	border: none;
-	font-size: 15px;
 }
 .upcomming {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding: 13px 26.4373px 15px 27.0002px;
-	border: none;
 	width: 129.44px;
-	height: 56px;
-	border-radius: 8px;
-	font-family: 'Inter';
-	font-weight: 700;
-	font-size: 15px;
+	height: 56px;	
 }
 .upcomming:hover {
 	cursor: pointer;
@@ -49,7 +34,7 @@
 }
 .active {
 	background-color: var(--white-color);
-	color: var(--violet-color);
+	color: var(--violet-color) !important;
 	transition: 0.25s;
 
 }

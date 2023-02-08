@@ -1,0 +1,165 @@
+
+.BarMobile{    display: none;
+    pointer-events: none;
+position: fixed;}
+.wallet {
+    display: none;
+    pointer-events: none;
+}
+
+.wrapper {
+	display: flex;
+    position: relative;
+	width: 100%;
+	justify-content: space-between;
+}
+.wrapper > ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 0;
+	width: 216px;
+}
+
+.wrapper > p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 22px;
+    color: var(--white-color)
+}
+
+.Container{
+    display: none;
+    pointer-events: none;
+}
+
+@media(max-width: 600px) {
+
+    .Container{
+        display: flex;
+        flex-direction: column;
+    }
+ .BarMobile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        pointer-events: all;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 4em;
+        z-index: 17;
+        background-image: url('../../../Assets/rectangle.svg');
+    }
+    .icon{
+        position: absolute;
+        right: 2em;
+        height: 2em;
+        width: 2em;
+    }
+
+    .BarMobile svg{
+        display: flex;
+        color: rgb(255, 255, 255);
+        height: 2em;
+        width: 2em;
+        cursor: pointer;
+    }
+    .BarMobile svg:hover{
+        color:--blue-color ;
+    }
+    .BarMobile a{
+        position: absolute;
+        left: 2em;
+
+    }
+    .wallet{
+        display: flex;
+        pointer-events: all;
+        height: 48px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .OpenMenu{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        flex-direction: column;
+        background-image: url('../../../Assets/rectangle.svg');
+        z-index: 15 ;
+        box-shadow: 10px 48px 108px -61px rgba(0,0,0,0.47);
+        -webkit-box-shadow: 10px 48px 108px -61px rgba(0,0,0,0.47);
+        -moz-box-shadow: 10px 48px 108px -61px rgba(0,0,0,0.47);
+        align-items: center;
+        justify-content: center;
+        gap: 4em;
+    }
+
+    .Menu{
+        display: none;
+        pointer-events: none;
+    }
+
+    .Buttons{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2em;
+        list-style-type: none;
+        padding: 0;
+        margin-top: 3em;
+    }
+
+
+    .Buttons li {
+        width: 5.5rem;
+        height: 1.25rem;
+    }
+
+    .list{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .list span{
+        width: 100%;
+        height: 2px;
+        background-color: white;
+    }
+    
+    .Buttons li a {
+        font-size: 0.875rem;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    .ConnectButtom{
+        top:25em;
+    }
+    .active-link {
+        color: #262BC1;
+    }
+
+    .wrapper{
+		flex-direction: column;
+		align-items: center;
+	}
+	.wrapper > p{
+		color: var(--gray-color);
+	}
+}
