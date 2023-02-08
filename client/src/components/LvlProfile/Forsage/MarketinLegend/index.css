@@ -1,5 +1,4 @@
 .forsage-marketin-legend {
-    border: 5px solid sandybrown;
     width: 99%;
     height: 712px;
     background: #242526;
@@ -11,7 +10,7 @@
 }
 
 .forsage-marketin-legend-cards {
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     width: 95%;
     height: 558px;
     margin-top: 22px;
