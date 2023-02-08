@@ -7,6 +7,13 @@ import MobileMenu from "./MobileMenu";
 
 function SideBarMobile() {
   const [open, setOpen] = useState(false);
+  const buttons = [
+    { name: "DASHBOARD", link: "/dashboard" },
+    { name: "PROJECTS", link: "/projects" },
+    { name: "STAKING", link: "/staking" },
+    { name: "BUY $AIR", link: "/buyAIR" },
+  ];
+
   useEffect(() => {
     document.addEventListener("click", (e) => {
       const isDropdownButton = e.target.matches("[data-dropdown-button]");
@@ -21,7 +28,7 @@ function SideBarMobile() {
     });
   }, []);
   return (
-    <div className={style.Container} data-dropdown-SideBar>
+    <div className={style.Container} data-dropdown-sideBar>
       <div className={style.BarMobile}>
         <NavLink to={"."}>
           <img src={icon} alt="logo" />
@@ -30,7 +37,7 @@ function SideBarMobile() {
           <IoListOutline />
         </div>
       </div>
-      <MobileMenu open={open} />
+      <MobileMenu open={open} buttons={buttons} />
     </div>
   );
 }

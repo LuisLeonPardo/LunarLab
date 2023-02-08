@@ -11,6 +11,7 @@
   --blue-color:#262ABF;
   --blue-opacity-20:rgba(64, 106, 255, 0.2);
   --yellow-binace:#F3BA2F;
+  overflow-x: hidden;
 }
 body {
   margin: 0;

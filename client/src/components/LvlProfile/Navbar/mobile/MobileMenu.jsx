@@ -11,34 +11,21 @@ import tiktok from "../../../Assets/tiktok.svg";
 import linkedin from "../../../Assets/vector.svg";
 import github from "../../../Assets/github.svg";
 
-function MobileMenu({ open }) {
+function MobileMenu({ open, buttons }) {
   return (
     <div className={style.Container} data-dropdown-SideBar>
       <div className={open ? style.OpenMenu : style.Menu}>
         <ul className={style.Buttons}>
-          <li>
-            <NavLink exact activeClassName="active-link" to="/dashboard">
-              DASHBOARD
-            </NavLink>
-          </li>
-          <span />
-          <li>
-            <NavLink exact activeClassName="active-link" to="#">
-              PROJECTS
-            </NavLink>
-          </li>
-          <span />
-          <li>
-            <NavLink exact activeClassName="active-link" to="#">
-              STAKING
-            </NavLink>
-          </li>
-          <span />
-          <li>
-            <NavLink exact activeClassName="active-link" to="#">
-              BUY $AIR
-            </NavLink>
-          </li>
+          {buttons.map((b) => (
+            <div className={style.list}>
+              <li>
+                <NavLink exact activeClassName="active-link" to={b.link}>
+                  {b.name}
+                </NavLink>
+              </li>
+              <span />
+            </div>
+          ))}
         </ul>
         <div className={style.ConnectButtom}>
           <CustomConnectButtom />

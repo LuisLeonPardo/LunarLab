@@ -31,7 +31,17 @@ position: fixed;}
     color: var(--white-color)
 }
 
+.Container{
+    display: none;
+    pointer-events: none;
+}
+
 @media(max-width: 600px) {
+
+    .Container{
+        display: flex;
+        flex-direction: column;
+    }
  .BarMobile{
         display: flex;
         flex-direction: row;
@@ -43,7 +53,7 @@ position: fixed;}
         left: 0;
         width: 100vw;
         height: 4em;
-        z-index: 10;
+        z-index: 17;
         background-image: url('../../../Assets/rectangle.svg');
     }
     .icon{
@@ -78,9 +88,10 @@ position: fixed;}
 
     .OpenMenu{
         display: flex;
-        width: 100%;
+        width: 100vw;
         height: 100vh;
         position: fixed;
+        left: 0;
         flex-direction: column;
         background-image: url('../../../Assets/rectangle.svg');
         z-index: 15 ;
@@ -102,18 +113,25 @@ position: fixed;}
         width: 80%;
         flex-direction: column;
         justify-content: center;
-        gap: 3em;
+        gap: 2em;
         list-style-type: none;
         padding: 0;
         margin-top: 3em;
     }
+
 
     .Buttons li {
         width: 5.5rem;
         height: 1.25rem;
     }
 
-    .Buttons span{
+    .list{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .list span{
         width: 100%;
         height: 2px;
         background-color: white;
