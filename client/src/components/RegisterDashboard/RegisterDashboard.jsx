@@ -20,7 +20,7 @@ function RegisterDashboard() {
     address: address,
   });
 
-  const balance = useBalance({
+  const balanceBUSD = useBalance({
     address: address,
     token: "0xe9e7cea3dedca5984780bafc599bd69add087d56",
   });
@@ -71,7 +71,7 @@ function RegisterDashboard() {
                 <p>Registration: available</p>
               </div>
             )}
-            {balance.data?.formatted >= 10 ? (
+            {balanceBUSD.data?.formatted >= 10 ? (
               <div className={style.Green}>
                 <IoCheckmarkCircleOutline />
                 <p>Balance: min 10 BUSD or 0.042 BNB</p>
@@ -101,15 +101,15 @@ function RegisterDashboard() {
               <AiFillInfoCircle />
               <h1>Information</h1>
             </div>
-            {balance.data?.formatted < 10 ? (
+            {balanceBUSD.data?.formatted < 10 ? (
               <div className={style.Info}>
                 <p>
                   <strong>Insufficient balance for registration.</strong>
                   <br />
                   Registration requires <strong>10 BUSD</strong> and at least
                   <strong> 0.005 BNB</strong> Your wallet ballance:{" "}
-                  {balance.data?.formatted + " " + balance.data?.symbol} and{" "}
-                  {data?.formatted + " " + data?.symbol}.
+                  {balanceBUSD.data?.formatted + " " + balanceBUSD.data?.symbol}{" "}
+                  and {data?.formatted + " " + data?.symbol}.
                 </p>
               </div>
             ) : (
@@ -117,7 +117,9 @@ function RegisterDashboard() {
                 <p>
                   <br /> Your wallet ballance:{" "}
                   <strong>
-                    {balance.data?.formatted + " " + balance.data?.symbol}
+                    {balanceBUSD.data?.formatted +
+                      " " +
+                      balanceBUSD.data?.symbol}
                   </strong>{" "}
                   and <strong>{data?.formatted + " " + data?.symbol}</strong>.
                 </p>
