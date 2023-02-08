@@ -102,3 +102,34 @@
 	grid-row-end: 4;
 	height: 99.7%;
 }
+
+.header__buttonConnect {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	text-decoration: none;
+	color: white;
+	width: 150.35px;
+	height: 48px;
+    margin-top: 0px;
+    margin-left: 35px;
+    background-color: var(--black-color);
+	border-radius: 8px;
+	font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+cursor: pointer;
+transition: background-color .3s, color .3s;
+}
+
+.header__buttonConnect:hover{
+	background-color: rgb(255, 255, 255);
+	color: var(--blue-color);
+	transition: background-color .3s, color .3s;
+}
