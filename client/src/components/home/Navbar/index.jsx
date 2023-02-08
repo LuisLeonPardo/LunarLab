@@ -70,9 +70,11 @@ function Navbar() {
         {/* <div className='pixeles'>Pixeles</div> */}
         <div className="navBar">
           <div className="container-img-btn">
-            <div className="navBar-iconoLunarLab">
-              <img src={LunarLab} alt="LunarLab" />
-            </div>
+            <img
+              src={LunarLab}
+              alt="LunarLab"
+              className="navBar-iconoLunarLab"
+            />
             <div className="icon" onClick={() => setOpen(!open)}>
               <IoListOutline />
             </div>

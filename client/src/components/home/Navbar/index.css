@@ -979,16 +979,19 @@
     }
 
     .navBar {
+        display: flex;
         margin: 0;
-        margin-top: 20px;
         margin-bottom: 6px;
         padding: 0;
         border: 0;
         width: 100%;
+        height: 4em;
+        align-items: center;
+        justify-content: center;
     }
 
     .icon{
-        display: inline;
+        display: flex;
         pointer-events: all;
         position: absolute;
         right: 2em;
@@ -1007,6 +1010,7 @@
     }
 
     .container-img-btn {
+        position: relative;
         margin: 0;
         padding: 0;
         border: 0;
@@ -1015,13 +1019,14 @@
         display: flex;
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
-                justify-content: space-between;
+                justify-content: center;
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
         gap: 99px;
-        width: 98%;
-        height: 35px;
+        width: 100%;
+        height: 4em;
+        top: 0;
     }
 
     .menu-button {
@@ -1084,11 +1089,14 @@
 
     .contenedor-navBar{
         position: fixed;
-        background-image: url('../../Assets/rectangle.svg');
+        display: flex;
         width: 100vw;
         left: 0;
         top: 0;
         z-index: 17;
+        align-items: center;
+        justify-content: center;
+        background-image: url('../../Assets/rectangle.svg');
     }
 
     .connectButtom{
@@ -1097,8 +1105,9 @@
     }
     
     .navBar-iconoLunarLab{
-        position: fixed;
-        left: 1em;
+        position: absolute;
+        left: 2em;
+        justify-self: center;
     }
 
 }
