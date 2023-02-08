@@ -1,6 +1,7 @@
 .App {
 	font-family: 'Inter';
-	width: 100vw;
+	max-width: 100vw;
+	overflow-x: hidden;
 }
 
 .App-logo {
@@ -50,6 +51,6 @@
 
 @media(max-width: 600px) {
 	.Pages{
-		margin-top: 4em;
+		margin-top: 11em;
 	}
 }

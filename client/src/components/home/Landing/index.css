@@ -1,10 +1,14 @@
 .contenedor-landing {
     display: flex;
     height: 601px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
 }
 
 .contenedor-landing div {
     /* position: absolute; */
+    position: relative;
     width: 675px;
     height: 237px;
     margin-left: 388px;
@@ -47,7 +51,7 @@
     letter-spacing: 0.4px;
 }
 
-.contenedor-landing button {
+.contenedor-landing a {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -59,9 +63,11 @@
     border: none;
     margin-top: 30px;
     padding: 0px;
+    text-decoration: none;
+    transition: background-color .3s;
 }
 
-.contenedor-landing button p {
+.contenedor-landing a p {
     width: 97px;
     height: 24px;
     margin-top: 7px;
@@ -79,9 +85,14 @@
     cursor: pointer;
 }
 
+.contenedor-landing a:hover {
+    background-color: rgb(22, 22, 22);
+    transition: background-color .3s;
+}
+
 .contenedor-landing img {
     /* position: absolute; */
-    width: 739px;
+    width: 100vw;
     height: 601px;
     margin-left: -258px;
     margin-top: -0.5px;
@@ -111,17 +122,32 @@
 
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 600px) {
     .contenedor-landing img {
         position: absolute;
         opacity: 0.2;
-        width: 800px;
+        width: 100vw;
         height: 681px;
-        left: calc(50% - 368px/2 + 1.5px);
         top: 150px;
+        left: 15em;
         flex: none;
         order: 0;
         flex-grow: 0;
         z-index: 0;
     }
+
+    .contenedor-landing div {
+        /* position: absolute; */
+        margin-left: 0px;
+        margin-top: 0px;
+        text-align: center;
+        align-items: center;
+        overflow-x: hidden;
+    }
+
+    .contenedor-landing{
+        align-items: center;
+        justify-content: center;
+    }
+
 }
