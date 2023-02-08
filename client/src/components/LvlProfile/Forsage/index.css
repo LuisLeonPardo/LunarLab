@@ -1,9 +1,22 @@
 .home-forsage {
-    border: 2px solid green;
     width: 1040.6px;
     height: 1310.67px;
     margin-top: 83px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.div-derechos-autor {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#color-uno {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#color-dos {
+    color: #FFFFFF;
 }
